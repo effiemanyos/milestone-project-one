@@ -324,3 +324,97 @@ padding: 0;
 }
 
 /* ------------------------------------[ Testimonials Section ]-------------------------------------- */
+
+/* Section Styling */
+#testimonials-section {
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Content Styling */
+.inner {
+    max-width: 1140px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Section Title */
+.inner h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+/* Row Styling */
+.row-styling {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Column Styling */
+.col-styling {
+    box-sizing: border-box;
+    flex: 33%;
+    max-width: 33%;
+}
+
+/* Box Content */
+.testimonial {
+    margin: 20px 10px 15px 0;
+    padding: 30px;
+    border: 3px solid #f1f1f1;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Images */
+.testimonial img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Paragraph */
+.testimonial p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Section Subtitle */
+.name {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+/* Section Icons */
+.stars {
+    color: #82589F;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+.col {
+    flex: 100%;
+    max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col {
+    flex: 100%;
+    max-width: 100%;
+}
+}
