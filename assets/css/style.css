@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 }
 
-/* --------------------------------------------- About Me Section */
+/* ------------------------------------[ About Me Section ]-------------------------------------- */
 
 /* Section Styling */
 #about-section {
@@ -71,7 +71,7 @@ padding: 0;
     color: #f5f6fa;
 }
 
-/* --------------------------------------------- How Can I Help Section */
+/* ------------------------------------[ How Can I Help Section ]-------------------------------------- */
 
 /* Section Styling */
 #services-types {
@@ -85,8 +85,9 @@ padding: 0;
     padding: 50px 20px 40px 20px;
 }
 
+/* Space Between Intro & Services Types */
 .services-types-intro {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 /* Section Title */
@@ -98,7 +99,7 @@ padding: 0;
     margin-bottom: 15px;
 }
 
-/* HYPHEN SYMBOL PURPLE */
+/* Purple Hyphen Symbol */
 .hyphen-purple {
     background: #82589F;
     width: 100px;
@@ -110,7 +111,7 @@ padding: 0;
 
 /* Intro Paragraph */
 .services-types-intro p {
-    margin-top: 25px;
+    margin-top: 30px;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -119,8 +120,9 @@ padding: 0;
     gap: 15px;
 }
 
+/* Space Between Services Types */
 .services-types-box:not(:first-child) {
-    margin-top: 45px;
+    margin-top: 35px;
 }
 
 /* Section Subtitles */
@@ -145,12 +147,12 @@ padding: 0;
     width: 50px;
     background-color: #82589F;
     color: #f5f6fa;
+    font-size: 22px;
     flex-shrink: 0;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
