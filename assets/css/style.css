@@ -72,3 +72,99 @@ padding: 0;
 }
 
 /* --------------------------------------------- How Can I Help Section */
+
+/* Section Styling */
+#services-types {
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: #e7e8ef;
+    color: #82589F;
+}
+
+.section-padding {
+    padding: 50px 20px 40px 20px;
+}
+
+.services-types-intro {
+    margin-bottom: 60px;
+}
+
+/* Section Title */
+.services-types-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* HYPHEN SYMBOL PURPLE */
+.hyphen-purple {
+    background: #82589F;
+    width: 100px;
+    height: 5px;
+    border: none;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+/* Intro Paragraph */
+.services-types-intro p {
+    margin-top: 25px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.services-types-box {
+    gap: 15px;
+}
+
+.services-types-box:not(:first-child) {
+    margin-top: 45px;
+}
+
+/* Section Subtitles */
+.services-types-content h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Section Paragraphs */
+.services-types-content p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* Section Icons */
+.services-types-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #82589F;
+    color: #f5f6fa;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Image Alignment */
+.services-types-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Image Styling */
+.services-type-img img {
+    max-width: 330px;
+    margin: 55px 0 55px 0;
+}
+
+
