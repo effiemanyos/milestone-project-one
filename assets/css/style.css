@@ -44,7 +44,6 @@ padding: 0;
 /* Section Paragraph */
 .about-text p {
     font-family: Poppins, Helvetica, sans-serif;
-    letter-spacing: 1px;
     font-size: 16px;
     margin: 0 15px;
 }
