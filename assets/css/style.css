@@ -9,7 +9,7 @@ padding: 0;
 
 /* Section Styling */
 #about-section {
-    background-image: linear-gradient(rgba(196, 69, 105, 0.85), rgba(130, 88, 159, 0.85)), url(../images/bg-cusco-close.jpg);
+    background-image: linear-gradient(rgba(196, 69, 105, 0.90), rgba(130, 88, 159, 0.90)), url(../images/bg-cusco-close.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,8 +81,9 @@ padding: 0;
     color: #82589F;
 }
 
+/* Section Padding */
 .section-padding {
-    padding: 50px 20px 40px 20px;
+    padding: 40px 20px 40px 20px;
 }
 
 /* Space Between Intro & Services Types */
@@ -198,4 +199,93 @@ padding: 0;
     color: #f5f6fa;
 }
 
+/* ------------------------------------[ How Can I Help Section ]-------------------------------------- */
 
+/* Section Styling */
+#services-fields {
+    background-image: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: #f5f6fa;
+}
+
+/* Intro Styling */
+.services-fields-intro {
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Centered White Hyphen Symbol */
+.hyphen-white-center {
+    width: 100px;
+    height: 5px;
+    background: #f5f6fa;
+    margin: 20px auto 40px;
+    padding-top: 10px;
+}
+
+/* Section Title */
+.services-fields-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.services-fields-intro p {
+    max-width: 550px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px auto 0;
+}
+
+/* Section Boxes */
+.services-fields-box {
+    position: relative;
+    margin: 0 5px 35px 5px;
+    padding: 25px;
+    color: #f5f6fa;
+    /**background: #f5f6fa;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);**/
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+/* Section Subtitles */
+.services-fields-box h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+/* Section Paragraphs */
+.services-fields-box p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Section Icons */
+.top-left {
+    color: #F5f6fa;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+/* CTA Learn More Styling */
+.services-fields-box a {
+    text-decoration: none;
+    color: #F5f6fa;
+    font-size: 12px;
+}
+
+/* CTA Learn More Hover Effect */
+.services-fields-box a:hover {
+    text-decoration: underline;
+}
