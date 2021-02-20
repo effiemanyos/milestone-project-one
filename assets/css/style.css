@@ -242,7 +242,7 @@ padding: 0;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
-    margin: 30px auto 0;
+    margin: 30px auto 40px;
 }
 
 /* Section Boxes */
@@ -251,6 +251,9 @@ padding: 0;
     margin: 0 5px 15px;
     padding: 20px;
     color: #f5f6fa;
+    border: 2px solid #F5f6fa;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Section Subtitles */
@@ -319,3 +322,5 @@ padding: 0;
     background: #000;
     color: #f5f6fa;
 }
+
+/* ------------------------------------[ Testimonials Section ]-------------------------------------- */
