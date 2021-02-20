@@ -167,4 +167,18 @@ padding: 0;
     margin: 55px 0 55px 0;
 }
 
+.cta-button-purple a {
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #82589F;
+    color: #f5f6fa;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
 
