@@ -302,7 +302,6 @@ padding: 0;
 /* Section CTA Button Styling */
 .cta-button-white a {
     display: flex;
-    margin-right: 10px;
     text-decoration: none;
     font-family: Poppins, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -314,6 +313,7 @@ padding: 0;
     padding: 12px 25px 10px 25px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    margin: 15px 0 15px 0;
 }
 
 /* Section CTA Button Hover Effect */
@@ -435,6 +435,7 @@ padding: 0;
     font-size: 25px;
 }
 
+/* Section Paragraph & Form */
 .footer-top p, form {
     color: #f5f6fa;
     line-height: 20px;
@@ -443,6 +444,7 @@ padding: 0;
     font-weight: 300;
 }
 
+/* Column 1 Title Symbol */
 .segment-one h2::before {
     content: '|';
     color: #82589F;
@@ -456,6 +458,7 @@ padding: 0;
     padding-right: 5px;
 }
 
+/* Column 2 Subtitles Styling */
 .segment-two ul {
     margin: 0;
     padding: 0;
@@ -463,11 +466,13 @@ padding: 0;
     color: #f5f6fa;
 }
 
+/* Column 2 Subtitles Underline */
 .segment-two ul li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     line-height: 40px;
 }
 
+/* Column 2 Subtitles */
 .segment-two ul li a {
     font-family: Poppins, Helvetica, sans-serif;
     color: #f5f6fa;
@@ -476,12 +481,13 @@ padding: 0;
     font-weight: 300;
 }
 
-/* Column 2 Services Symbol */
+/* Column 2 Subtitles Symbol */
 .segment-two a::before {
     content: "»";
     margin-right: 10px;
 }
 
+/* Column 2 Subtitles Hover Effect */
 .segment-two a:hover {
     color: #c44569;
 }
@@ -493,6 +499,7 @@ padding: 0;
     padding-right: 5px;
 }
 
+/* Column 3 Icons Styling */
 .segment-three a {
     background: #f5f6fa;
     width: 35px;
@@ -502,18 +509,21 @@ padding: 0;
     margin: 0 8px 0 -2px;
 }
 
+/* Column 3 Icons Background Hover Effects */
 .segment-three a:hover {
     background: #c44569;
 }
 
-.segment-three a i:hover {
-    color: #f5f6fa;
-}
-
+/* Column 3 Individual Icons */
 .segment-three a i {
     font-size: 18px;
     color: #82589F;
     padding: 9px 10px;
+}
+
+/* Column 3 Main Icons Hover Effects */
+.segment-three a i:hover {
+    color: #f5f6fa;
 }
 
 /* Column 4 Title Symbol */
@@ -560,7 +570,10 @@ padding: 0;
     text-align: center;
     line-height: 50px;
     color: #f5f6fa;
+    margin-bottom: 0;
 }
+
+/* -----[ Section Responsiveness ]----- */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .md-mb-30 {
