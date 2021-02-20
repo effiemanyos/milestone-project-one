@@ -9,7 +9,7 @@ padding: 0;
 
 /* Section Styling */
 #about-section {
-    background-image: linear-gradient(rgba(196, 69, 105, 0.90), rgba(130, 88, 159, 0.90)), url(../images/bg-aerial.jpg);
+    background-image: linear-gradient(rgba(196, 69, 105, 0.85), rgba(130, 88, 159, 0.85)), url(../images/bg-cusco-close.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
