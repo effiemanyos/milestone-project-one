@@ -164,9 +164,18 @@ padding: 0;
 /* Section Image Styling */
 .services-type-img img {
     max-width: 330px;
-    margin: 55px 0 55px 0;
+    margin: 30px 0;
 }
 
+/* Section CTA Button Alignment */
+.cta-button-purple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Section CTA Button Styling */
 .cta-button-purple a {
     text-decoration: none;
     font-family: Poppins, Helvetica, sans-serif;
@@ -179,6 +188,12 @@ padding: 0;
     padding: 12px 25px 10px 25px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section CTA Button Hover Effect */
+.cta-button-purple a:hover {
+    background: #000;
+    color: #f5f6fa;
 }
 
 
