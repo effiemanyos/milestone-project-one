@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* --------------------------------------------- About Me Section */
+
+/* Section Styling */
+#about-section {
+    background-image: linear-gradient(rgba(196, 69, 105, 0.90), rgba(130, 88, 159, 0.90)), url(../images/bg-aerial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px 0;
+    color: #f5f6fa;
+}
+
+/* White Hyphen Symbol */
+.hyphen-white {
+    width: 100px;
+    height: 5px;
+    background: #f5f6fa;
+    margin: 20px 0 40px 15px;
+    padding-top: 10px;
+}
+
+/* Left Column */
+.about-text {
+    margin-left: -15px;
+}
+
+/* Section Title */
+.about-text h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 15px;
+}
+
+/* Section Paragraph */
+.about-text p {
+    font-family: Poppins, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+/* Section Button */
+.about-text a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #f5f6fa;
+    color: #000;
+    margin: 0 15px;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Button Hover Effect */
+.about-text a:hover {
+    background-color: #000;
+    color: #f5f6fa;
+}
