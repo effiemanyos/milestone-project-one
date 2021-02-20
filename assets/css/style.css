@@ -214,7 +214,7 @@ padding: 0;
 /* Intro Styling */
 .services-fields-intro {
     padding-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Centered White Hyphen Symbol */
@@ -247,14 +247,9 @@ padding: 0;
 /* Section Boxes */
 .services-fields-box {
     position: relative;
-    margin: 0 5px 35px 5px;
-    padding: 25px;
+    margin: 0 5px 20px;
+    padding: 20px;
     color: #f5f6fa;
-    /**background: #f5f6fa;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);**/
-    transition: 0.5s ease;
-    cursor: pointer;
 }
 
 /* Section Subtitles */
@@ -263,6 +258,7 @@ padding: 0;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 /* Section Paragraphs */
@@ -275,11 +271,12 @@ padding: 0;
 .top-left {
     color: #F5f6fa;
     font-size: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* CTA Learn More Styling */
 .services-fields-box a {
+    font-family: Poppins, Helvetica, sans-serif;
     text-decoration: none;
     color: #F5f6fa;
     font-size: 12px;
