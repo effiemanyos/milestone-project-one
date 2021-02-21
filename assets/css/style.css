@@ -830,17 +830,15 @@ padding: 0;
     box-sizing: border-box;
     display: grid;
     place-items: center;
-    width: 100%;
     color: #82589F;
-    padding: 40px 0 50px 0;
+    padding: 40px 20px 40px;
 }
 
 /* Content Styling */
 .communities-wrap {
-    width: 90%;
     height: auto;
     text-align: center;
-    max-width: 750px;
+    max-width: 800px;
 }
 
 /* Intro Title */
@@ -859,7 +857,7 @@ padding: 0;
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
     margin: auto;
-    padding: 10px 0 50px 0;
+    padding: 10px 0 30px;
 }
 
 /* Communities Styling */
