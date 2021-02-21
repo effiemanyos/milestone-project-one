@@ -9,11 +9,7 @@ padding: 0;
 
 /* Section Styling */
 #about-section {
-    background-image: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    background: #82589F;
     padding: 35px;
     color: #f5f6fa;
 }

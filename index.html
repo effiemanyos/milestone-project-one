@@ -28,7 +28,7 @@
 <body>
     <!-- Hero Image | Invitation -->
     <section id="hero-image-section">
-        <!-- https://www.w3schools.com/howto/howto_css_hero_image.asp -->
+        <!-- https://www.w3schools.com/howto/howto_css_hero_image.asp and customized for this project's requirements -->
         <div class="hero-image">
             <div class="hero-text">
                 <h1>READY TO HACK GROWTH?</h1>
@@ -115,7 +115,9 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="services-type-img">
-                            <img src="assets/images/services-types-img.svg" alt="illustration of a girl using her mobile phone">
+                            <!-- CREDIT: illustration taken from UnDraw and customized for this project's requirements  -->
+                            <img src="assets/images/services-types-img.svg"
+                                alt="illustration of a girl using her mobile phone">
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -280,6 +282,78 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me | Contact Information & Form -->
+    <section id="contact-section">
+        <div class="contact-intro">
+            <h2 class="contact-heading uppercase text-center">Contact Me</h2>
+            <div class="hyphen-white-center"></div>
+            <h3 class="contact-subheading uppercase text-center">Let's Work Together</h3>
+        </div>
+        <!-- CREDIT: https://getbootstrap.com/docs/4.0/layout/grid/ and customized for this project's requirements -->
+        <div class="container-fluid">
+            <div class="row bg-color-contact">
+
+                <!-- Column 1: Contact Information -->
+                <div class="col">
+                    <div class="contact-info">
+                        <h3 class="title">Let's get in touch</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet!
+                        </p>
+                        <div class="info">
+                            <div class="contact-information">
+                                <i class="fa fa-linkedin"></i>
+                                <p>92 Cherry Drive Uniondale, NY 11553</p>
+                            </div>
+                            <div class="contact-information">
+                                <i class="fa fa-linkedin"></i>
+                                <p>lorem@ipsum.com</p>
+                            </div>
+                            <div class="contact-information">
+                                <i class="fa fa-linkedin"></i>
+                                <p>123-456-789</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <p>Follow Me:</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Contact Form -->
+                <div class="col-8">
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
+                                required />
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                                required />
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"
+                                required />
+                            <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message"
+                                required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="button" style="vertical-align:middle">
+                                        <span>Send Now</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
