@@ -337,7 +337,7 @@ padding: 0;
     max-width: 1140px;
     overflow: hidden;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 /* Section Title */
@@ -364,8 +364,8 @@ padding: 0;
 
 /* Box Content */
 .testimonial {
-    margin: 20px 10px 15px 0;
-    padding: 30px;
+    margin: 20px 5px 15px;
+    padding: 25px 10px 10px;
     border: 3px solid #f1f1f1;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
@@ -377,12 +377,6 @@ padding: 0;
     height: 130px;
     border-radius: 50%;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-}
-
-/* Section Paragraph */
-.testimonial p {
-    font-family: Poppins, Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 /* Section Subtitle */
@@ -400,6 +394,12 @@ padding: 0;
     color: #82589F;
     margin-bottom: 20px;
     font-size: 25px;
+}
+
+/* Section Paragraph */
+.testimonial p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 /* -----[ Section Responsiveness ]----- */
