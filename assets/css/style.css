@@ -44,7 +44,7 @@ padding: 0;
     margin: 0 15px 15px;
 }
 
-/* Section Button */
+/* Section Button Styling */
 .about-text a {
     display: inline-block;
     text-decoration: none;
@@ -59,6 +59,8 @@ padding: 0;
     padding: 12px 25px 10px 25px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 /* Button Hover Effect */
@@ -196,6 +198,8 @@ padding: 0;
     padding: 12px 25px 10px 25px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 /* Section CTA Button Hover Effect */
@@ -318,6 +322,8 @@ padding: 0;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     margin: 15px 0 15px 0;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 /* Section CTA Button Hover Effect */
@@ -656,10 +662,85 @@ padding: 0;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     margin: 15px 0 15px 0;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 /* Section CTA Button Hover Effect */
 .cta-button-white-pink a:hover {
     background: #c44569;
+    color: #f5f6fa;
+}
+
+/* ------------------------------------[ Contact Me Section ]-------------------------------------- */
+
+/* Section Styling */
+#contact-section {
+    background-color: #c44569;
+    color: #F5f6fa;
+    padding: 40px;
+}
+
+/* Section Title */
+.contact-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* SECTION SUBTITLE */
+.contact-intro h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 30px 0 40px;
+}
+
+/* Form Alignment */
+.container-fluid .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Form Styling */
+.center-form {
+    margin: auto;
+}
+
+/* Inner Form */
+.form-control {
+    margin: 8px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Form CTA Button */
+.button {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: #F5f6fa;
+    color: #000;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 25px 10px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Form CTA Button Hover Effect */
+.button:hover {
+    background: #000;
     color: #f5f6fa;
 }
