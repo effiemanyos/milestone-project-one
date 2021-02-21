@@ -821,3 +821,100 @@ padding: 0;
     background: #000;
     color: #f5f6fa;
 }
+
+/* ------------------------------------[ Communities Section ]-------------------------------------- */
+
+/* Section Styling */
+#communities-section {
+    background: #e7e8ef;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    color: #82589F;
+    padding: 40px 0 50px 0;
+}
+
+/* Content Styling */
+.communities-wrap {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    max-width: 750px;
+}
+
+/* Intro Title */
+.communities-wrap h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.communities-wrap p {
+    max-width: 550px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px 0 50px 0;
+}
+
+/* Communities Styling */
+.communities {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* List Styling */
+.communities ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Communities Individual Logos */
+.communities ul li {
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 7px; /*space between logos*/
+    margin-bottom: 5px;
+    transition: .5s;
+}
+
+/* Logos Styling */
+.communities ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* -----[ Hover Effect ]----- */
+
+.communities ul li img:nth-child(1) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.communities ul li img:nth-child(2) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.communities ul li:hover img:nth-child(1) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+.communities ul li:hover img:nth-child(2) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
