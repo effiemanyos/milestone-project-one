@@ -9,12 +9,12 @@ padding: 0;
 
 /* Section Styling */
 #about-section {
-    background-image: linear-gradient(rgba(196, 69, 105, 0.90), rgba(130, 88, 159, 0.90)), url(../images/bg-cusco-close.jpg);
+    background-image: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    padding: 40px;
+    padding: 35px;
     color: #f5f6fa;
 }
 
@@ -30,6 +30,7 @@ padding: 0;
 /* Left Column */
 .about-text {
     margin-left: -15px;
+    margin-right: 20px;
 }
 
 /* Section Title */
@@ -69,6 +70,14 @@ padding: 0;
 .about-text a:hover {
     background-color: #000;
     color: #f5f6fa;
+}
+
+/* Right Column Image */
+.right-column-img {
+    background-image: url(../images/about-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* ------------------------------------[ How Can I Help Section ]-------------------------------------- */
@@ -200,7 +209,7 @@ padding: 0;
     color: #f5f6fa;
 }
 
-/* ------------------------------------[ How Can I Help Section ]-------------------------------------- */
+/* ------------------------------------[ What I Do Section ]-------------------------------------- */
 
 /* Section Styling */
 #services-fields {
@@ -623,7 +632,7 @@ padding: 0;
 /* Section Subtitle */
 .hero-text p {
     font-family: Neucha, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -634,7 +643,7 @@ padding: 0;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 /* Section CTA Button Styling */

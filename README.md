@@ -423,6 +423,10 @@ The following are the colours used for this project:
 > - **Green** → Associated with **health, tranquility, growth, freshness, prosperity, hope, balance, harmony, and nature**.
 > - **Pink** → Associated with femininity. **Imaginative, passionate, caring, creativity, innovative, quirky**. 
 
+At the end, only these colours were used throughout the entire website (MVP stage): 
+
+![the mvp color scheme](./assets/images/color-scheme-mvp.png "the mvp color scheme")
+
 ### **Imagery**
 
 Illustrations from **[UnDraw](https://undraw.co/)** have been used to improve the UX. These illustrations have been modified to match the website and brand colours.
