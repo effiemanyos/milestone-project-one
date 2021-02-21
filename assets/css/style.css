@@ -822,9 +822,9 @@ padding: 0;
     color: #f5f6fa;
 }
 
-/* ------------------------------------[ Communities Section ]-------------------------------------- */
+/* ------------------------------------[ Communities & Work Experience Section ]-------------------------------------- */
 
-/* Section Styling */
+/* Section Styling (Communities */
 #communities-section {
     background: #e7e8ef;
     box-sizing: border-box;
@@ -834,15 +834,27 @@ padding: 0;
     padding: 40px 20px 40px;
 }
 
+/* Section Styling (Work Experience) */
+#work-experience {
+    background: #f1f1f1;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    color: #434343;
+    padding: 40px 20px 40px;
+}
+
 /* Content Styling */
-.communities-wrap {
+.communities-wrap,
+.experience-wrap {
     height: auto;
     text-align: center;
     max-width: 800px;
 }
 
 /* Intro Title */
-.communities-wrap h2 {
+.communities-wrap h2,
+.experience-wrap h2 {
     font-family: Neucha, Helvetica, sans-serif;
     font-size: 40px;
     letter-spacing: 4px;
@@ -851,7 +863,8 @@ padding: 0;
 }
 
 /* Intro Paragraph */
-.communities-wrap p {
+.communities-wrap p,
+.experience-wrap p {
     max-width: 550px;
     font-size: 16px;
     text-align: center;
@@ -861,7 +874,8 @@ padding: 0;
 }
 
 /* Communities Styling */
-.communities {
+.communities,
+.companies {
     width: 100%;
     height: auto;
     padding: 0;
@@ -869,27 +883,29 @@ padding: 0;
 }
 
 /* Communities List Styling */
-.communities ul {
+.communities ul,
+.companies ul {
     padding: 0;
     margin: 0;
 }
 
 /* Communities List Items */
-.communities ul li {
+.communities ul li,
+.companies ul li {
     list-style: none;
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    margin: 7px; /*space between logos*/
-    margin-bottom: 5px;
+    margin: 12px 12px 5px; /*space between logos*/
     transition: .5s;
 }
 
 /* Main Logos */
-.communities ul li img {
+.communities ul li img,
+.companies ul li img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -897,22 +913,26 @@ padding: 0;
 
 /* -----[ Hover Effect ]----- */
 
-.communities ul li img:nth-child(1) {
+.communities ul li img:nth-child(1),
+.companies ul li img:nth-child(1) {
     transform: translateY(0);
     transition: .5s;
 }
 
-.communities ul li img:nth-child(2) {
+.communities ul li img:nth-child(2),
+.companies ul li img:nth-child(2) {
     transform: translateY(0);
     transition: .5s;
 }
 
-.communities ul li:hover img:nth-child(1) {
+.communities ul li:hover img:nth-child(1),
+.companies ul li:hover img:nth-child(1) {
     transform: translateY(-100%);
     transition: .5s;
 }
 
-.communities ul li:hover img:nth-child(2) {
+.communities ul li:hover img:nth-child(2),
+.companies ul li:hover img:nth-child(2) {
     transform: translateY(-100%);
     transition: .5s;
 }
