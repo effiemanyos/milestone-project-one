@@ -470,6 +470,7 @@ The following technology was used during the development and testing of this pro
 - Beautify HTML → [Web Formatter](https://webformatter.com/html)
 - Beautify CSS → [Free Formatter](https://www.freeformatter.com/css-beautifier.html)
 - Hex to RGB → [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+- Rem to PX → [nekoCalc](https://nekocalc.com/rem-to-px-converter)
 - Hover Effects → [Hover.css](https://ianlunn.github.io/Hover/)
 - Website Icon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - Favicon → [W3C](https://www.w3.org/2005/10/howto-favicon) 

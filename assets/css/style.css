@@ -690,7 +690,7 @@ padding: 0;
     text-align: center;
 }
 
-/* SECTION SUBTITLE */
+/* Section Subtitle */
 .contact-intro h3 {
     font-family: Neucha, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -698,6 +698,86 @@ padding: 0;
     text-align: center;
     margin: 30px 0 40px;
 }
+
+/* Contact Information Styling */
+.contact-info {
+    position: relative;
+}
+
+/* Section Subtitle */
+.contact-info .title {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Column 1 Paragraph */
+.contact-info .text  {
+    font-family: Poppins, Helvetica, sans-serif;
+    margin: 24px 0 32px 0;
+    font-size: 16px;
+}
+
+.contact-information {
+    display: flex;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+/* Column 1 Contact Info Icons */
+.contact-information i {
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Social Media Section */
+.social-media {
+    padding: 15px 0 0 0;
+}
+
+/* Social Media List of Icons */
+.social-icons {
+    display: flex;
+    margin-top: 8px;
+}
+
+/* Social Media Individual Icons */
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #F5f6fa;
+    color: #c44569;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+/* Social Media Icons Hover Effect */
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Form Alignment */
 .container-fluid .row {
@@ -736,7 +816,7 @@ padding: 0;
     padding: 12px 25px 10px 25px;
     transition: all 0.5s;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* Form CTA Button Hover Effect */
@@ -744,3 +824,4 @@ padding: 0;
     background: #000;
     color: #f5f6fa;
 }
+
