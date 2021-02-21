@@ -691,17 +691,13 @@ padding: 0;
     text-align: center;
 }
 
-/* Section Subtitle */
-.form-intro h3 {
+/* Column 1 Title */
+.contact-info h2 {
     font-family: Neucha, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    margin: 20px 0 20px;
-}
-
-/* Column 1 Styling - SEE IF THIS AFFECTS */
-.contact-info {
-    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 12px;
 }
 
 /* Column 1 Paragraph */
@@ -713,7 +709,7 @@ padding: 0;
 /* Column 1 Contact Details */
 .contact-information {
     display: flex;
-    margin: 11px 0;
+    margin: 5px 0;
     align-items: center;
     font-size: 15px;
 }
@@ -737,13 +733,12 @@ padding: 0;
 
 /* Follow Me Section */
 .social-media {
-    padding: 8px 0 0;
+    padding: 10px 0 0;
 }
 
 /* Social Media Icons */
 .social-icons {
     display: flex;
-    margin-top: 8px;
 }
 
 /* Social Media Individual Icons */
@@ -765,6 +760,16 @@ padding: 0;
   transform: scale(1.12);
 }
 
+/* Column 2 Subtitle */
+.form-intro h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 12px 0 20px;
+}
+
 /* Form Alignment */
 .container-fluid .row {
     display: flex;
@@ -772,7 +777,7 @@ padding: 0;
     justify-content: center;
 }
 
-/* Form Styling */
+/* Center Form */
 .center-form {
     margin: auto;
 }
