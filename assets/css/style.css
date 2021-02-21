@@ -868,13 +868,13 @@ padding: 0;
     margin: 0;
 }
 
-/* List Styling */
+/* Communities List Styling */
 .communities ul {
     padding: 0;
     margin: 0;
 }
 
-/* Communities Individual Logos */
+/* Communities List Items */
 .communities ul li {
     list-style: none;
     display: inline-block;
@@ -888,7 +888,7 @@ padding: 0;
     transition: .5s;
 }
 
-/* Logos Styling */
+/* Main Logos */
 .communities ul li img {
     width: 100%;
     height: 100%;
