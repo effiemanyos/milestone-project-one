@@ -679,6 +679,7 @@ padding: 0;
     background-color: #c44569;
     color: #F5f6fa;
     padding: 40px;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
 /* Section Title */
@@ -691,54 +692,55 @@ padding: 0;
 }
 
 /* Section Subtitle */
-.contact-intro h3 {
+.form-intro h3 {
     font-family: Neucha, Helvetica, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    margin: 30px 0 40px;
+    margin: 20px 0 20px;
 }
 
-/* Contact Information Styling */
+/* Column 1 Styling - SEE IF THIS AFFECTS */
 .contact-info {
     position: relative;
 }
 
-/* Section Subtitle */
-.contact-info .title {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 25px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
 /* Column 1 Paragraph */
 .contact-info .text  {
-    font-family: Poppins, Helvetica, sans-serif;
     margin: 24px 0 32px 0;
-    font-size: 16px;
+    font-size: 15px;
 }
 
+/* Column 1 Contact Details */
 .contact-information {
     display: flex;
-    margin: 0.7rem 0;
+    margin: 11px 0;
     align-items: center;
-    font-size: 0.95rem;
+    font-size: 15px;
 }
 
-/* Column 1 Contact Info Icons */
+/* Column 1 Contact Details Icons */
 .contact-information i {
-    font-size: 20px;
-    margin-right: 10px;
-    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    height: 35px;
+    width: 35px;
+    background-color: #f5f6fa;
+    color: #c44569;
+    font-size: 18px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* Social Media Section */
+/* Follow Me Section */
 .social-media {
-    padding: 15px 0 0 0;
+    padding: 8px 0 0;
 }
 
-/* Social Media List of Icons */
+/* Social Media Icons */
 .social-icons {
     display: flex;
     margin-top: 8px;
@@ -753,31 +755,15 @@ padding: 0;
     color: #c44569;
     text-align: center;
     line-height: 35px;
-    margin-right: 8px;
-    margin-bottom: 30px;
+    margin: 0 8px 30px 0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     transition: 0.3s;
 }
 
 /* Social Media Icons Hover Effect */
 .social-icons a:hover {
-  transform: scale(1.1);
+  transform: scale(1.12);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Form Alignment */
 .container-fluid .row {
@@ -796,7 +782,7 @@ padding: 0;
     margin: 8px;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -824,4 +810,3 @@ padding: 0;
     background: #000;
     color: #f5f6fa;
 }
-
