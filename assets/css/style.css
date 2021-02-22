@@ -940,7 +940,7 @@ padding: 0;
     box-sizing: border-box;
     background: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
     color: #F5f6fa;
-    padding: 50px;
+    padding: 50px 50px 0;
 }
 
 /* Section Row Styling */
@@ -950,6 +950,7 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 /* Intro Title */
