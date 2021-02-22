@@ -933,37 +933,9 @@ padding: 0;
     transition: .5s;
 }
 
-/* Section CTA Button Alignment */
-.cta-button-black {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-/* Section CTA Button Styling */
-.cta-button-black a {
-    text-decoration: none;
-    font-family: Poppins, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    background: #000;
-    color: #f5f6fa;
-    padding: 12px 25px 10px 20px;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-/* Section CTA Button Hover Effect */
-.cta-button-black a:hover {
-    background: #82589F;
-    color: #f5f6fa;
+/* CTA Button Alignment */
+.cta-button-purple {
+    padding-bottom: 15px;
 }
 
 /* ------------------------------------[ Qualifications Section ]-------------------------------------- */
