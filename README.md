@@ -504,6 +504,25 @@ The following technology was used during the development and testing of this pro
 
 The entire testing process, issues and bugs found, solutions, and final results can be found here.
 
+# **Deployment**
+
+### **GitHub Pages**
+
+This project was deployed to **GitHub Pages** following these steps:
+
+1. Login to **[GitHub](https://github.com/)**
+2. Insert the following **GitHub Repository** in the **Search Bar** to locate it: **effiemanyos/milestone-project-one**
+3. Click on that repository to view more details
+4. Click on **Settings**, which is located right above the **Gitpod** green button
+5. Scroll all the way down to the **GitHub Pages** section
+6. Under **Source**, select **Master** in the dropdown menu
+7. Select **/(root)** in the tab which is right next to **Branch**
+8. Click **Save** (*Note:* the page will automatically refresh)
+9. Scroll all the way down again to the **GitHub Pages** section
+10. Finally, you can see the link where the site is published highlited with a light green/blue background 
+
+
+
 # **CREDITS** 
 
 ### **Inspiration**
