@@ -288,7 +288,7 @@ At the moment, the website consists in only **1 page containing 11 sections**, o
 
 |HOME|ABOUT|SERVICES|TRAINING|TESTIMONIALS|CONTACT|
 |--|----|-----|---|---|---|
-|Hero Image √|About Me √|How Can I Help √|Learning Hub √|Testimonials √|Contact Me √|
+|Hero Image √|About Me √|How Can I Help √|Learning Hub X|Testimonials √|Contact Me √|
 ||Work Experience √|What I Do √|Communities √|||
 ||Qualifications √|||||
 
@@ -300,7 +300,7 @@ The **intended structure** of the website for the **MVP** was the following:
 
 |HOME|ABOUT|SERVICES|TRAINING|RESOURCES|JOIN US|CONTACT|
 |---|---|---|---|---|---|---|
-|Hero Image √ |About Me √|How Can I Help (*) √|Learning Hub √|Recommend Resources (^) √|Memberships X|Contact Me √|
+|Hero Image √ |About Me √|How Can I Help (*) √|Learning Hub X|Recommend Resources (^) √|Memberships X|Contact Me √|
 |About Me √|Expertise #|What I Do (**) √|Workshops & Webinars X|Books & eBooks X|Join Huasi X|Footer √|
 |How Can I Help (*) √|Work Experience √|Digital Marketing √|Online Courses X|Blogs & Newsletters X|Join NetCork X||
 |What I Do (**) √|Qualifications √|Product Management √|1:1 & Group Sessions X|Podcasts & Clubhouse X|P&C X||
