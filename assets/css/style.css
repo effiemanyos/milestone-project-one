@@ -996,7 +996,7 @@ button.navbar-toggler:focus {
     box-sizing: border-box;
     background-image: linear-gradient(to right, #82589F, #c44569);
     color: #F5f6fa;
-    padding: 50px 50px 0;
+    padding: 50px 50px 0 100px;
 }
 
 /* Section Row Styling */
@@ -1108,4 +1108,44 @@ button.navbar-toggler:focus {
     margin: 30px;
     padding-bottom: 10px;
     border-bottom: 2px dashed #F5f6fa;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+.school-logo {
+    display: none;
+}
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+}
+
+@media screen and (max-width:600px) {
+.school-logo {
+    display: none;
+}
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+
+#qualifications .col {
+    padding: 0;
+    right: 40px;
+}
+
+.qualifications-intro {
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+.qualifications-intro h2 {
+    font-size: 35px;
+}
+
+.qualifications-content p {
+    display: none;
+}
 }
