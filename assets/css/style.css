@@ -28,7 +28,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
-    margin: 8px 0 2px;
+    margin: 10px 0 2px;
     color: #f5f6fa;
 }
 
@@ -39,15 +39,27 @@
     letter-spacing: 2px;
     font-size: 18px;
     margin: 8px 2px 2px;
+    text-align: center;
 }
 
 /* Button Toggler */
 button .navbar-toggler {
-    border: 0px;
+    border: 0;
     padding: 0px 15px 0px 15px;
 }
 
+/* Button Toggler Border */
+button.navbar-toggler:focus {
+    outline: 1px dotted;
+}
 
+/* Button Toggler Styling */
+.toggle-btn {
+    font-size: 23px;
+    padding: 0px;
+    height: initial;
+    color: #F5f6fa
+}
 
 /* ------------------------------------[ Hero Image Section ]-------------------------------------- */
 
@@ -59,7 +71,7 @@ button .navbar-toggler {
     background-size: cover;
     position: relative;
     color: #F5f6fa;
-    padding: 80px 40px 40px;
+    padding: 160px 40px 80px;
 }
 
 /* Section Text */
@@ -871,7 +883,7 @@ button .navbar-toggler {
     display: grid;
     place-items: center;
     color: #82589F;
-    padding: 40px 20px 30px;
+    padding: 40px 20px 35px;
 }
 
 /* Section Styling (Work Experience) */
@@ -881,7 +893,7 @@ button .navbar-toggler {
     display: grid;
     place-items: center;
     color: #434343;
-    padding: 40px 20px 30px;
+    padding: 40px 20px 35px;
 }
 
 /* Content Styling */
@@ -975,11 +987,6 @@ button .navbar-toggler {
 .companies ul li:hover img:nth-child(2) {
     transform: translateY(-100%);
     transition: .5s;
-}
-
-/* CTA Button Alignment */
-#work-experience .cta-button-purple {
-    padding: 10px 0 15px;
 }
 
 /* ------------------------------------[ Qualifications Section ]-------------------------------------- */
