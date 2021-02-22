@@ -1,13 +1,19 @@
-# **[EFFIE MANYOS PERSONAL WEBSITE](https://effiemanyos.github.io/first-personal-website/)**
+# **[Effie Manyos | Personal Website](https://effiemanyos.github.io/milestone-project-one/)**
 
-**ADD LOGO + INTRODUCTION ABOUT PROJECT**
+![the logo of the website](./assets/images/effie-manyos-logo.png "tthe logo of the website")
 
-PROJECT DESCRIPTION & INTRODUCTION:
+## **Milestone Project 1 | User Centric Front-End Development**
+
+### **Introduction & Project Description:**
 - Briefly introduce the project
 - What's the motivation behind creating it
 - What does it aim to solve and for whom
 
-Static website to promote my services, increase my online presence and build a solid personal branding. This project is the first milestone in obtaining a [Full Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) diploma from [Code Institute](https://codeinstitute.net/).
+This project consists of a **static front-end site** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entre Level Professionals, and Recent Graduates** achieve their professional goals by providing them with the right tools. 
+
+However, the main purpose of this project is to **build a strategic professional online presence, promote my services, sell my online courses, build a community around those fields of interest, become an Irish thought leader, and build a solid personal branding**. 
+
+It is worth noting that this project is the first milestone in obtaining a **[Full Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Only HTML & CSS were required, but other technologies were slightly used to improve the quality and user experience.
 
 -------
 
@@ -54,8 +60,8 @@ Static website to promote my services, increase my online presence and build a s
     - [HTML & CSS Validation](# "HTML & CSS Validation")
 - [Deployment](# "Deployment")
     - [GitHub Pages](# "GitHub Pages")
-    - Fork GitHub Repository
-    - Local Clone
+    - [Run Project Locally](# "Run Project Locally")
+    - [Clone & Fork GitHub Repository](# "Clone & Fork GitHub Repository")
 - [Credits](# "Credits")
     - [Inspiration](# "Inspiration")
     - [Code](# "Code")
@@ -66,9 +72,9 @@ ______
 
 # **DEMO**  
 
-**VIEW WEBSITE LIVE**
+**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/milestone-project-one/)**
 
-![the webpage on different devices](./assets/images/bg-aerial.jpg "the webpage on different devices")
+![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different devices")
 
 # **UX DESIGN**  
 
@@ -514,7 +520,7 @@ The entire testing process, issues and bugs found, solutions, and final results 
 This project was deployed to **GitHub Pages** following these steps:
 
 1. Login to **[GitHub](https://github.com/)**
-2. Insert the following **GitHub Repository** name in the **Search Bar** to locate it: **effiemanyos/milestone-project-one**
+2. Insert the following **GitHub Repository** name in the **Search Bar** to locate the project: **[effiemanyos/milestone-project-one](https://github.com/effiemanyos/milestone-project-one)**
 3. Click on that repository to view more details
 4. Click on **Settings**, which is located right above the **Gitpod** green button
 5. Scroll all the way down to the **GitHub Pages** section
@@ -524,9 +530,20 @@ This project was deployed to **GitHub Pages** following these steps:
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
 
-**View Details**
+![deployment from github pages](./assets/images/github-pages.png "deployment from github pages")
 
-### **GitHub Pages**
+### **Run Project Locally**
+
+1. Login to **[GitHub](https://github.com/)**
+2. Insert the following **GitHub Repository** name in the **Search Bar** to locate the project: **[effiemanyos/milestone-project-one](https://github.com/effiemanyos/milestone-project-one)**
+3. Select **Code** and click on **Download ZIP File**
+4. You can extract the file and use it in your local environment once it is downloaded
+
+### **Clone & Fork GitHub Repository**
+
+To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github.com/effiemanyos/milestone-project-one)) into your [GitHub](https://github.com/) account please follow these steps:
+- [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+- [Fork a Repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 # **CREDITS** 
 
@@ -539,9 +556,6 @@ This project was deployed to **GitHub Pages** following these steps:
 ### **Code**
 
 - Preinstalled  Tools → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-- XXXX
-- XXXX
-- XXXX
 - Favicon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 
 ### **Media**
