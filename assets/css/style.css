@@ -5,6 +5,11 @@ margin: 0;
 padding: 0;
 }
 
+/* ------------------------------------[ Header Section ]-------------------------------------- */
+
+
+
+
 /* ------------------------------------[ About Me Section ]-------------------------------------- */
 
 /* Section Styling */
@@ -934,8 +939,8 @@ padding: 0;
 }
 
 /* CTA Button Alignment */
-.cta-button-purple {
-    padding-bottom: 15px;
+#work-experience .cta-button-purple {
+    padding: 10px 0 15px;
 }
 
 /* ------------------------------------[ Qualifications Section ]-------------------------------------- */
