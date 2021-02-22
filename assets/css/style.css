@@ -947,6 +947,9 @@ padding: 0;
 #qualifications .row {
     max-width: 1050px;
     margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Intro Title */
@@ -1014,9 +1017,9 @@ padding: 0;
 /* School Logos */
 .school-logo {
     position: absolute;
-    left: -120px;
+    left: -130px;
     top: 0;
-    width: 100px;
+    width: 110px;
     border-radius: 50%;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
@@ -1024,7 +1027,7 @@ padding: 0;
 /* Timeline Years Styling */
 .qualifications-content h2 {
     font-family: Poppins, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -1038,7 +1041,7 @@ padding: 0;
 
 /* Descriptive Paragraph */
 .qualifications-content p {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Poppins, Helvetica, sans-serif;
     line-height: 1.3;
 }
