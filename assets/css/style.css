@@ -19,7 +19,7 @@
 
 /* Navigation Bar Background */
 .navbar-dark {
-    background: #000;
+    background: #82589F;
     color: #F5f6fa;
 }
 
@@ -50,7 +50,7 @@ button .navbar-toggler {
 
 /* Button Toggler Border */
 button.navbar-toggler:focus {
-    outline: 1px dotted;
+    outline: 0.5px dotted;
 }
 
 /* Button Toggler Styling */
@@ -951,7 +951,7 @@ button.navbar-toggler:focus {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    margin: 12px 12px 5px; /*space between logos*/
+    margin: 12px 20px 5px; /*space between logos*/
     transition: .5s;
 }
 
