@@ -28,41 +28,53 @@
 <body>
 
     <!-- Navigation Bar | Main Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html">Effie Manyos</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFour"
-            aria-controls="navbarFour" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarFour">
+    <header id="navigation-bar">
+        <!-- CREDIT: https://www.youtube.com/watch?v=TT1faZ-g9U4 and customized for this project's requirements-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#home">Effie Manyos <i class="fa fa-envira"></i></a>
 
-            <!-- Main Website Menu-->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html"><i class="fa fa-home"></i> Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html"><i class="fa fa-user-circle-o"></i> About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html"><i class="fa fa-heart"></i> Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="training.html"><i class="fa fa-graduation-cap"></i> Training</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFour"
+                aria-controls="navbarFour" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars toggle-btn navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarFour">
+                <!-- Main Website Menu-->
+                <ul class="navbar-nav ml-auto">
+                    <!-- CREDIT: https://www.caktusgroup.com/blog/2017/10/23/css-tip-fixed-headers-and-section-anchors/ -->
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link active" href="#home"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#about"><i class="fa fa-user-circle-o"></i> About</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#services"><i class="fa fa-list-ul"></i> Services</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#training"><i class="fa fa-graduation-cap"></i>
+                            Training</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!-- Hero Image | Website Invitation -->
     <section id="hero-image-section">
+        <div class="anchors" id="home">
+            <h1>home</h1>
+        </div>
         <!-- CREDIT: https://www.w3schools.com/howto/howto_css_hero_image.asp and customized for this project's requirements -->
         <div class="hero-image">
             <div class="hero-text">
-                <h1>READY TO HACK GROWTH?</h1>
+                <h2>READY TO HACK GROWTH?</h2>
                 <div class="hyphen-white-center"></div>
                 <p>Consultant | Strategist | Entrepreneur | Mentor | Speaker</p>
                 <div class="cta-button-white-pink">
@@ -74,6 +86,7 @@
 
     <!-- About Me Section | Short Bio -->
     <section id="about-section">
+        <div class="anchors" id="about">about</div>
         <!-- CREDIT: https://getbootstrap.com/docs/4.0/layout/grid/ and customized for this project's requirements -->
         <div class="container">
             <div class="row">
@@ -302,6 +315,7 @@
 
     <!-- How Can I Help Section | Services Types -->
     <section id="services-types">
+        <div class="anchors" id="services">services</div>
         <!-- CREDIT: https://www.youtube.com/watch?v=ZRouuWvN-7A and customized for this project's requirements -->
         <div class="section-padding">
             <div class="container">
@@ -526,6 +540,7 @@
 
     <!-- Testimonials Section | What Pleople Say -->
     <section id="testimonials-section">
+        <div class="anchors" id="testimonials">testimonials</div>
         <!-- CREDIT: https://www.youtube.com/watch?v=zkyIVFoLxgY and customized for this project's requirements -->
         <div class="testimonials">
             <div class="inner">
@@ -587,6 +602,7 @@
 
     <!-- Contact Me Section | Contact Information & Form -->
     <section id="contact-section">
+        <div class="anchors" id="contact">contact</div>
         <div class="contact-intro">
             <h2>Get In Touch</h2>
             <div class="hyphen-white-center"></div>
