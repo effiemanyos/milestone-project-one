@@ -19,7 +19,7 @@
 
 /* Navigation Bar Background */
 .navbar-dark {
-    background: #82589F;
+    background-image: linear-gradient(to right, #82589F, #c44569);
     color: #F5f6fa;
 }
 
@@ -65,13 +65,13 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #hero-image-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/bg-hero-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/bg-hero-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: #F5f6fa;
-    padding: 160px 40px 80px;
+    padding: 190px 40px 100px;
 }
 
 /* Section Text */
@@ -134,7 +134,7 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #about-section {
-    background: #82589F;
+    background-image: linear-gradient(to right, #82589F, #c44569);
     padding: 35px;
     color: #f5f6fa;
 }
@@ -337,7 +337,7 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #services-fields {
-    background: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
+    background-image: linear-gradient(to right, #82589F, #c44569);
     color: #f5f6fa;
 }
 
@@ -994,7 +994,7 @@ button.navbar-toggler:focus {
 /* Section Styling */
 #qualifications {
     box-sizing: border-box;
-    background: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
+    background-image: linear-gradient(to right, #82589F, #c44569);
     color: #F5f6fa;
     padding: 50px 50px 0;
 }

@@ -284,14 +284,13 @@ ____
 
 ### **Website Structure**
 
-At the moment, the website consists in only one page containing various sections, one after the other. The **current structure** of the website is the following:
+At the moment, the website consists in only **1 page containing 11 sections**, one after the other. The **current structure** of the website is the following:
 
 |HOME|ABOUT|SERVICES|TRAINING|TESTIMONIALS|CONTACT|
 |--|----|-----|---|---|---|
-|Hero Image |About Me|How Can I Help|Learning Hub|Testimonials|Contact Me|
-||Communities|What I Do||||
-||Work Experience|||||
-||Qualifications|||||
+|Hero Image √|About Me √|How Can I Help √|Learning Hub √|Testimonials √|Contact Me √|
+||Work Experience √|What I Do √|Communities √|||
+||Qualifications √|||||
 
 > Besides the 'Footer' section, which goes after the 'Contact Me' section.
 
@@ -431,7 +430,7 @@ At the end, only these colours were used throughout the entire website (MVP stag
 
 Illustrations from **[UnDraw](https://undraw.co/)** have been used to improve the UX. These illustrations have been modified to match the website and brand colours.
 
-Professional photographies from **[Unsplash](https://unsplash.com/)** have been used to represent the owner's origins. All the selected images, except for the hero image, were taken in Peru, South America.
+CHANGE THIS - Professional photographies from **[Unsplash](https://unsplash.com/)** have been used to represent the owner's origins. All the selected images, except for the hero image, were taken in Peru, South America.
 
 When ready, professional photos will be added to the website in various sections. Some of the images will come from:
 - Workshops
