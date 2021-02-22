@@ -53,7 +53,7 @@ Static website to promote my services, increase my online presence and build a s
     - [Testing Performance](# "Testing Performance")
     - [HTML & CSS Validation](# "HTML & CSS Validation")
 - [Deployment](# "Deployment")
-    - GitHub Pages
+    - [GitHub Pages](# "GitHub Pages")
     - Fork GitHub Repository
     - Local Clone
 - [Credits](# "Credits")
@@ -497,6 +497,9 @@ The following technology was used during the development and testing of this pro
 # **TESTING**  
 
 ### **Issues Solved Duringe Development**
+
+All issues... XXX
+
 ### **Testing User Stories**
 ### **Testing Accessibility**
 ### **Testing Performance (Google Lighthouse)**
@@ -511,7 +514,7 @@ The entire testing process, issues and bugs found, solutions, and final results 
 This project was deployed to **GitHub Pages** following these steps:
 
 1. Login to **[GitHub](https://github.com/)**
-2. Insert the following **GitHub Repository** in the **Search Bar** to locate it: **effiemanyos/milestone-project-one**
+2. Insert the following **GitHub Repository** name in the **Search Bar** to locate it: **effiemanyos/milestone-project-one**
 3. Click on that repository to view more details
 4. Click on **Settings**, which is located right above the **Gitpod** green button
 5. Scroll all the way down to the **GitHub Pages** section
@@ -521,7 +524,9 @@ This project was deployed to **GitHub Pages** following these steps:
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
 
+**View Details**
 
+### **GitHub Pages**
 
 # **CREDITS** 
 

@@ -19,7 +19,7 @@
 
 /* Navigation Bar Background */
 .navbar-dark {
-    background-image: linear-gradient(to right, #82589F, #c44569);
+    background: #000;
     color: #F5f6fa;
 }
 
