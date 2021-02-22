@@ -845,7 +845,7 @@ padding: 0;
 .experience-wrap {
     height: auto;
     text-align: center;
-    max-width: 800px;
+    max-width: 1100px;
 }
 
 /* Intro Title */
@@ -1025,6 +1025,7 @@ padding: 0;
 .qualifications-content h2 {
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 /* Section Subtitles */
