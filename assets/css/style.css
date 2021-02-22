@@ -734,7 +734,7 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #contact-section {
-    background-color: #c44569;
+    background-image: linear-gradient(to right, #82589F, #c44569);
     color: #F5f6fa;
     padding: 40px;
     font-family: Poppins, Helvetica, sans-serif;
@@ -779,7 +779,7 @@ button.navbar-toggler:focus {
     height: 35px;
     width: 35px;
     background-color: #f5f6fa;
-    color: #c44569;
+    color: #82589F;
     font-size: 18px;
     border-radius: 5px;
     flex-shrink: 0;
@@ -805,7 +805,7 @@ button.navbar-toggler:focus {
     height: 35px;
     border-radius: 50%;
     background: #F5f6fa;
-    color: #c44569;
+    color: #82589F;
     text-align: center;
     line-height: 35px;
     margin: 0 8px 30px 0;
