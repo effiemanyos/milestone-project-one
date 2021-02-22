@@ -20,6 +20,7 @@
 /* Navigation Bar Background */
 .navbar-dark {
     background: #000;
+    color: #F5f6fa;
 }
 
 /* Website Logo */
@@ -29,7 +30,6 @@
     letter-spacing: 2px;
     font-size: 20px;
     margin: 10px 0 2px;
-    color: #f5f6fa;
 }
 
 /* Navigation Menu Syling */
@@ -65,7 +65,7 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #hero-image-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg-hero-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/bg-hero-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
