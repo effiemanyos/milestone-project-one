@@ -212,11 +212,7 @@ padding: 0;
 
 /* Section Styling */
 #services-fields {
-    background-image: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    background: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
     color: #f5f6fa;
 }
 
@@ -935,4 +931,51 @@ padding: 0;
 .companies ul li:hover img:nth-child(2) {
     transform: translateY(-100%);
     transition: .5s;
+}
+
+/* ------------------------------------[ Qualifications Section ]-------------------------------------- */
+
+/* Section Styling */
+#qualifications {
+    box-sizing: border-box;
+    background: linear-gradient(rgba(196, 69, 105, 5), rgba(130, 88, 159, 5));
+    color: #F5f6fa;
+    padding: 50px;
+}
+
+/* Section Row Styling */
+#qualifications .row {
+    max-width: 1050px;
+    margin: 0 auto; 
+}
+
+/* Intro Title */
+.qualifications-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.qualifications-intro p {
+    font-family: Poppins, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    max-width: 550px;
+    margin: 0 auto 40px;
+}
+
+/* Timeline Styling */
+.timeline {
+    max-width: 700px; /* IMPORTANTE */
+    margin: 0 auto;
+}
+
+/* Timeline Years Styling */
+.qualifications-content h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
