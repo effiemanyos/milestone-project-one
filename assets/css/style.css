@@ -537,6 +537,9 @@ button.navbar-toggler:focus {
     flex: 100%;
     max-width: 100%;
 }
+.inner h2 {
+    font-size: 32px;
+}
 }
 
 /* ------------------------------------[ Footer Section ]-------------------------------------- */
@@ -990,6 +993,21 @@ button.navbar-toggler:focus {
 .companies ul li:hover img:nth-child(2) {
     transform: translateY(-100%);
     transition: .5s;
+}
+
+@media screen and (max-width:500px) {
+.communities ul li,
+.companies ul li {
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 12px 10px 5px; /*space between logos*/
+    transition: .5s;
+}
 }
 
 /* ------------------------------------[ Qualifications Section ]-------------------------------------- */
