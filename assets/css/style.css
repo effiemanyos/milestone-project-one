@@ -78,11 +78,11 @@ button.navbar-toggler:focus {
     font-size: 45px;
 }
 
-/* Section Subtitle */
+/* Section Paragraph */
 .hero-text p {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -1115,6 +1115,12 @@ button.navbar-toggler:focus {
     font-size: 25px;
     line-height: 1;
     letter-spacing: 1px;
+}
+
+/* Section Schools Responsive */
+.qualifications-content h4 {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 /* Descriptive Paragraph */
