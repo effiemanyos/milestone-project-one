@@ -864,6 +864,19 @@ button.navbar-toggler:focus {
     color: #f5f6fa;
 }
 
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+.contact-info,
+.contact-information,
+.social-icons {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+
 /* ------------------------------------[ Communities & Work Experience Section ]-------------------------------------- */
 
 /* Section Styling (Communities */
