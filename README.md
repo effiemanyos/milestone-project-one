@@ -1,6 +1,10 @@
 # **[Effie Manyos | Personal Website](https://effiemanyos.github.io/milestone-project-one/)**
 
-![the logo of the website](./assets/images/effie-manyos-logo.png "tthe logo of the website")
+![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different devices")
+
+**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/milestone-project-one/)**
+
+![the logo of the website](./assets/images/effie-manyos-logo.png "tthe logo of the website") 
 
 ## **Milestone Project 1 | User Centric Front-End Development**
 
@@ -69,12 +73,6 @@ It is worth noting that this project is the first milestone in obtaining a **[Fu
 - [Acknowledgements](# "Acknowledgements")
 
 ______
-
-# **DEMO**  
-
-**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/milestone-project-one/)**
-
-![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different devices")
 
 # **UX DESIGN**  
 
