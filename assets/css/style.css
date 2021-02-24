@@ -503,7 +503,7 @@ button.navbar-toggler:focus {
 /* Section Subtitle */
 .name {
     font-family: Neucha, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 25px;
@@ -514,7 +514,7 @@ button.navbar-toggler:focus {
 .stars {
     color: #82589F;
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 /* Section Paragraph */
@@ -768,8 +768,7 @@ button.navbar-toggler:focus {
 
 /* Column 1 Contact Details Icons */
 .contact-information i {
-    margin-right: 15px;
-    margin-bottom: 18px;
+    margin: 0 15px 18px 0;
     height: 35px;
     width: 35px;
     background-color: #f5f6fa;
@@ -785,7 +784,7 @@ button.navbar-toggler:focus {
 
 /* Follow Me Section */
 .social-media {
-    padding: 10px 0 0;
+    padding: 10px 0 15px;
 }
 
 /* Social Media Icons */
