@@ -528,8 +528,6 @@ This project was deployed to **GitHub Pages** following these steps:
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
 
-![deployment from github pages](./assets/images/github-pages.png "deployment from github pages")
-
 ### **Run Project Locally**
 
 1. Login to **[GitHub](https://github.com/)**
@@ -555,63 +553,76 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 
 - Preinstalled  Tools → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 - Favicon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
+- Grid System → [Boostrap](https://getbootstrap.com/docs/4.0/layout/grid/)
+- Spacing → [Boostrap](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+- Anchors → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
+- Metadata → [W3 Schools](https://www.w3schools.com/tags/tag_meta.asp)
+- 
+
 
 ### **Media**
 
 **'Hero Image' Section:**
-- [Background Image](https://www.jciireland.ie/) by XXXX taken from [Unsplash](https://unsplash.com/)
+- [New York, USA](https://unsplash.com/photos/VIhBOwitqu8) by [James Ting](https://unsplash.com/@jamesting) taken from [Unsplash](https://unsplash.com/)
 
 **'About Me' Section:**
-- [Background Image](https://www.jciireland.ie/) by XXXX taken from [Unsplash](https://unsplash.com/)
-- Llama https://unsplash.com/photos/73FOXT1DvjI
-- Islas Ballestas https://unsplash.com/photos/sCYqkY_Lmpo
-- Miraflores Malecon https://unsplash.com/photos/Yrqyn1Gb80k
-- https://unsplash.com/photos/4hMET7vYTAQ
-- Lima Ciudad Mar https://unsplash.com/photos/lvowu4IK6Mc 
-- https://unsplash.com/photos/Ef32LHjkw64
-- https://unsplash.com/photos/sDRNwsezLU8
-- https://unsplash.com/photos/WVC6iAZHP0k
-- cusco mp right https://unsplash.com/photos/dZgMUPACJzQ
-
-**'How Can I Help' Section:**
-- Illustration taken from [UnDraw](https://undraw.co/) and modified to match the website and brand colours.
+- Effie's Original Portraits by Effie Manyos taken from [LinkedIn](https://www.linkedin.com/in/effiemanyos/) and [Instagram](https://www.instagram.com/effiemanyos/) (2)
 
 **'Work Experience' Section:**
-- [ArchHyve](https://archhyve.com/) Logo
-- [Ardagh Agencies](https://www.ardaghagencies.ie/) Logo
-- [ISG Contract](https://www.isgcontract.com/) Logo
-- [PeggyRain](https://peggyrain.com/) Logo
-- [Translit](https://translit.ie/) Logo
-- [Keysight Technologies](https://www.keysight.com/) Logo
-- [Citigroup](https://www.citigroup.com/citi/) Logo
-- [Banco de Credito BCP](https://www.viabcp.com/) Logo
-- [SocMark](https://www.linkedin.com/company/socmark/) Logo
-- [Publicidad Causa](http://pi-ar.com.pe/el-reto-de-las-agencias-de-hoy-conseguir-clientes-al-mismo-costo/) Logo
+
+*Company Logos:*
+- [ArchHyve](https://archhyve.com/) Logo taken from Official Website
+- [Ardagh Agencies](https://www.ardaghagencies.ie/) Logo taken from Official Website
+- [ISG Contract](https://www.isgcontract.com/) Logo taken from Official Website
+- [PeggyRain](https://peggyrain.com/) Logo taken from Official Website
+- [Translit](https://translit.ie/) Logo taken from Official Website
+- [Keysight Technologies](https://www.keysight.com/) Logo taken from Official Website
+- [inbestMe](https://www.inbestme.com/en) Logo taken from Official Website
+- [The Crêpe Kitchen](https://www.thecrepekitchen.ca/) Logo taken from Official Website
+- [Citigroup](https://www.citigroup.com/citi/) Logo taken from Official Website
+- [Banco de Credito BCP](https://www.viabcp.com/) Logo taken from Official Website
+- [SocMark](https://www.linkedin.com/company/socmark/) Logo taken from Official Website
+- [Publicidad Causa](http://pi-ar.com.pe/el-reto-de-las-agencias-de-hoy-conseguir-clientes-al-mismo-costo/) Logo taken from Google Images
+
+*Location Images:*
+- [Barcelona, Spain](https://unsplash.com/photos/fwi8RCxfmY4) by [Shai Pal](https://unsplash.com/@shaipal) taken from [Unsplash](https://unsplash.com/)
+- [Toronto, Canada](https://unsplash.com/photos/_XYtu0lcVWo) by [Matthew Henry](https://unsplash.com/@matthewhenry) taken from [Unsplash](https://unsplash.com/)
+- [Lima, Peru](https://unsplash.com/photos/4hMET7vYTAQ) by [Willian Justen de Vasconcellos](https://unsplash.com/@willianjusten) taken from [Unsplash](https://unsplash.com/)
+- [New Jersey, USA](https://unsplash.com/photos/OWMN3ujgWBc) by [Gautam Krishnan](https://unsplash.com/@gautamkrishnan) taken from [Unsplash](https://unsplash.com/)
+- [New York, USA](https://unsplash.com/photos/SVVTZtTGyaU) by [Patrick Tomasso](https://unsplash.com/@impatrickt) taken from [Unsplash](https://unsplash.com/)
+- [Cork City, Ireland](https://unsplash.com/photos/NELRuCfHxxU) by [Mark de Jong](https://unsplash.com/@mrmarkdejong) taken from [Unsplash](https://unsplash.com/)
 
 **'Qualifications' Section:**
-- [Universitat de Barcelona](https://www.ub.edu/) Logo
-- [Wharton | University of Pennsylvania](https://www.wharton.upenn.edu/) Logo
-- [University of Alberta](https://www.ualberta.ca/) Logo
+- [Universitat de Barcelona](https://www.ub.edu/) Logo taken from Official Website
+- [Wharton School | University of Pennsylvania](https://www.wharton.upenn.edu/) Logo taken from Official Website
+- [University of Alberta](https://www.ualberta.ca/) Logo taken from Official Website
+- [Digital Marketing Institute](https://digitalmarketinginstitute.com/) Logo taken from Official Website
+- [Universidad de Lima](https://www.ulima.edu.pe/en) Logo taken from Official Website
+
+**'How Can I Help' Section:**
+- Illustration taken from [UnDraw](https://undraw.co/) and modified to match the brand and website color scheme.
 
 **'Communities' Section:**
-- [JCI Ireland](https://www.jciireland.ie/) Logo
-- [ThePowerMBA](https://thepowermba.com/) Logo
-- [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo
-- [Sian Horn | The Club](https://sianhorn.com/) Logo
-- [IPMG](https://www.linkedin.com/company/irish-product-management-group/) Logo
-- [Product School](https://www.productschool.com/) Logo
-- [Product Buds](https://productbuds.co/) Logo
-- [Code Institute](https://codeinstitute.net/) Logo
-- [Women in Tech](https://women-in-tech.net/) Logo
-- [Up She Rises](https://upsherises.ie/) Logo
-- [Digital Marketing Institute](https://digitalmarketinginstitute.com/) Logo
-- [Universidad de Lima](https://www.ulima.edu.pe/en) Logo
+- [JCI Ireland](https://www.jciireland.ie/) Logo taken from Official Website
+- [ThePowerMBA](https://thepowermba.com/) Logo taken from Official Website
+- [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo taken from Official Website
+- [Sian Horn | The Club](https://sianhorn.com/) Logo taken from Official Website
+- [IPMG](https://www.linkedin.com/company/irish-product-management-group/) Logo taken from Official Website
+- [Product School](https://www.productschool.com/) Logo taken from Official Website
+- [Product Buds](https://productbuds.co/) Logo taken from Official Website
+- [Code Institute](https://codeinstitute.net/) Logo taken from Official Website
+- [Women in Tech](https://women-in-tech.net/) Logo taken from Official Website
+- [Up She Rises](https://upsherises.ie/) Logo taken from Official Website
 
 **'Testimonials' Section:**
-- [Portrait 1](https://unsplash.com/photos/X6Uj51n5CE8) by [Austin Wade](https://unsplash.com/@austin_wade) taken from [Unsplash](https://unsplash.com/)
+- [Portrait 1](https://unsplash.com/photos/TXxiFuQLBKQ) by [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering) taken from [Unsplash](https://unsplash.com/)
 - [Portrait 2](https://unsplash.com/photos/iFgRcqHznqg) by [Joseph Gonzalez](https://unsplash.com/@miracletwentyone) taken from [Unsplash](https://unsplash.com/)
 - [Portrait 3](https://unsplash.com/photos/rriAI0nhcbc) by [Jack Finnigan](https://unsplash.com/@jackofallstreets) taken from [Unsplash](https://unsplash.com/)
 
+# **ACKNOWLEDGEMENTS** 
 
-
-https://www.youtube.com/watch?v=CEjaKXYeaJU
+I would like to thank the following people for the constant support and guidance during my learning process: 
+- [Cormac Lawlor](https://www.linkedin.com/in/cormac-lawlor/)
+- [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
+- [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
+- [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
