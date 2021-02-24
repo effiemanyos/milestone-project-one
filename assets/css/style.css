@@ -593,7 +593,8 @@ button.navbar-toggler:focus {
 /* Column 2 Subtitles Underline */
 .segment-two ul li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    line-height: 40px;
+    line-height: 20px;
+    width: 230px;
 }
 
 /* Column 2 Subtitles */
@@ -676,7 +677,7 @@ button.navbar-toggler:focus {
     background: #82589F;
     border: none;
     padding: 5px 15px 3px 15px;
-    margin-left: -5px;
+    margin-left: -3px;
     color: #f5f6fa;
     font-size: 10px;
     border-radius: 30px;
