@@ -239,7 +239,7 @@ button.navbar-toggler:focus {
 }
 
 .services-types-box {
-    gap: 15px;
+    gap: 25px;
 }
 
 /* Space Between Services Types */
@@ -763,6 +763,7 @@ button.navbar-toggler:focus {
     margin: 5px 0;
     align-items: center;
     font-size: 15px;
+    text-decoration: none;
 }
 
 /* Column 1 Contact Details Icons */
@@ -998,15 +999,9 @@ button.navbar-toggler:focus {
 @media screen and (max-width:500px) {
 .communities ul li,
 .companies ul li {
-    list-style: none;
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
+    width: 130px;
+    height: 130px;
     margin: 12px 10px 5px; /*space between logos*/
-    transition: .5s;
 }
 }
 
