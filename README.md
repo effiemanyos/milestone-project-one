@@ -106,9 +106,9 @@ These are some crucial **user pain points** worth mentioning:
 
 ### **Assumptions | What Are These Users Looking For?**
 
-Consulting, Training, Strategy, Management, Guidance, Clarity, Structure, Mentoring, Speaking, Knowledge, Collaboration, Partnership, Free Resources, Networking, Development, Empowerment, Confidence
+Consulting, Training, Strategy, Management, Guidance, Clarity, Structure, Mentoring, Speaking, Knowledge, Collaboration, Partnership, Free Resources, Networking, Development, Empowerment, Confidence.
 
-This list sums up to → **GROW** or **LAUNCH** their businesses and **GROW** professionally. These are just assumptions that still need to be validated.
+This list sums up to **GROW** or **LAUNCH** their businesses and **GROW** professionally. These are just assumptions that still need to be validated once we launch the MVP.
 
 ### **Site Owner's Goals | Business Goals**
 - Build my personal branding
@@ -288,9 +288,9 @@ At the moment, the website consists in only **1 page containing 11 sections**, o
 
 |HOME|ABOUT|SERVICES|TRAINING|TESTIMONIALS|CONTACT|
 |--|----|-----|---|---|---|
-|Hero Image √|About Me √|How Can I Help √|Learning Hub X|Testimonials √|Contact Me √|
-||Work Experience √|What I Do √|Communities √|||
-||Qualifications √|||||
+|Hero Image|About Me|How Can I Help|~~Learning Hub~~|Testimonials|Contact Me|
+||Work Experience|What I Do|Communities|||
+||Qualifications|||||
 
 > Besides the 'Navigation' and 'Footer' section, which goes on top and after the 'Contact Me' section, respectively.
 
@@ -300,14 +300,14 @@ The **intended structure** of the website for the **MVP** was the following:
 
 |HOME|ABOUT|SERVICES|TRAINING|RESOURCES|JOIN US|CONTACT|
 |---|---|---|---|---|---|---|
-|Hero Image √ |About Me √|How Can I Help (*) √|Learning Hub X|Recommend Resources (^) √|Memberships X|Contact Me √|
-|About Me √|Expertise #|What I Do (**) √|Workshops & Webinars X|Books & eBooks X|Join Huasi X|Footer √|
-|How Can I Help (*) √|Work Experience √|Digital Marketing √|Online Courses X|Blogs & Newsletters X|Join NetCork X||
-|What I Do (**) √|Qualifications √|Product Management √|1:1 & Group Sessions X|Podcasts & Clubhouse X|P&C X||
-|Testimonials √|Top Skills √|Entrepreneurship X|Podcast & YouTube X|PPL/SM/YT Channels X| Contact Me √||
-|Key Figures X|Communities √|Recommended Partners X|Blog & Newsletter X|Free/Cheap Tools X|Footer √||
-|Contact Me √|Contact Me √|Contact Me √|Virtual Meetups X|Other Resources X||
-|Footer √|Footer √|Footer √|Footer √|Footer √||
+|Hero Image |About Me|How Can I Help (*)|~~Learning Hub~~|Recommend Resources (^)|~~Memberships~~|Contact Me|
+|About Me|~~Expertise~~|What I Do (**)|~~Workshops & Webinars~~|~~Books & eBooks~~|~~Join Huasi~~|Footer|
+|How Can I Help (*)|Work Experience|Digital Marketing|~~Online Courses~~|~~Blogs & Newsletters~~|~~Join NetCork~~||
+|What I Do (**)|Qualifications|Product Management|~~1:1 & Group Sessions~~|~~Podcasts & Clubhouse~~|~~P&C~~||
+|Testimonials|Top Skills|~~Entrepreneurship~~|~~Podcast & YouTube~~|~~PPL/SM/YT Channels~~| ~~Contact Me~~||
+|~~Key Figures~~|Communities|~~Recommended Partners~~|~~Blog & Newsletter~~|~~Free/Cheap Tools~~|Footer||
+|Contact Me|Contact Me|Contact Me|~~Virtual Meetups~~|~~Other Resources~~||
+|Footer|Footer|Footer|Footer|Footer||
 
 >(*) Services types  
 (**) Services fields  
@@ -429,11 +429,11 @@ At the end, only these colours were used throughout the entire website (MVP stag
 
 ### **Imagery**
 
-Illustrations from **[UnDraw](https://undraw.co/)** have been used to improve the UX. These illustrations have been modified to match the website and brand colours.
+Illustrations will be taken from **[UnDraw](https://undraw.co/)** to improve the UX. These illustrations have been modified to match the website and brand colours.
 
-CHANGE THIS - Professional photographies from **[Unsplash](https://unsplash.com/)** have been used to represent the owner's origins. All the selected images, except for the hero image, were taken in Peru, South America.
+Professional photographies from **[Unsplash](https://unsplash.com/)** have been used for the Hero Image, Work Experience and Testimonials section of the site. 
 
-When ready, professional photos will be added to the website in various sections. Some of the images will come from:
+When ready, professional photos and videos will be added to the website in various sections. Some of the images and videos will come from:
 - Workshops
 - Events
 - Webinars
@@ -477,7 +477,7 @@ The following technology was used during the development and testing of this pro
 
 ### **Testing**
 - Test/Fix Code → [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-- Website Responsiveness → [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer)
+- Website Responsiveness → [Responsive Viewer](https://www.producthunt.com/posts/responsive-viewer)
 - Website Performance → [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - Validate HTML → [W3C HTML Validator](https://validator.w3.org/)
 - Validate CSS → [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -488,12 +488,14 @@ The following technology was used during the development and testing of this pro
 - Unicode → [Cool Symbol](https://coolsymbol.com/)
 - Illustrations → [UnDraw](https://undraw.co/)
 - Photography → [Unsplash](https://unsplash.com/)
-- Wireframing → [Balsamiq](https://balsamiq.com/)
+- Wireframing → [Balsamiq](https://balsamiq.com/) (*)
 - Planning → [Miro](https://miro.com/)
 - Visuals → [Canva](https://www.canva.com/)
 - Colour Scheme → [Coolors](https://coolors.co/)
 - Shapes & Diagrams → [Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)
 - Crop Portraits → [Crop Circle](https://crop-circle.imageonline.co/)
+
+>(*) This tool was used to create the first version of wireframes. However, the structure and the design of the website had to be modified to meet the project deadline.
 
 # **TESTING**  
 
@@ -541,8 +543,9 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 # **CREDITS** 
 
 ### **Inspiration**
-- [Sian Horn](https://sianhorn.com/)
+- [Sian Horn | The Club](https://sianhorn.com/)
 - [Dana Fuelles](https://danafuelles.coach/)
+- [Virginia Foley | Up She Rises](https://upsherises.ie/)
 - [Wonsulting](https://wonsulting.com/)
 - [Awwwards.](https://www.awwwards.com/)
 
@@ -552,11 +555,11 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 - Favicon (UX) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - Spacing (Responsiveness) → [Boostrap](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 - Anchors (Fix Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
-- Metadata (SEO Purposes) → [W3 Schools](https://www.w3schools.com/tags/tag_meta.asp)
+- Metadata (SEO Purposes) → [W3Schools](https://www.w3schools.com/tags/tag_meta.asp)
 - NavBar (Social Media Icons) → [CodeTime](https://www.youtube.com/watch?v=TT1faZ-g9U4) by Peter Medina and Trevor Greenleaf
 - NavBar (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
 - Scrollspy → [Bootstrap](https://getbootstrap.com/docs/5.0/components/scrollspy/)
-- Hero Image → [W3 Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- Hero Image → [W3Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - About Me Section (Grid System) → [Boostrap](https://getbootstrap.com/docs/4.0/layout/grid/)
 - Work Eperience Section (Effect) → [How 2 Create](https://www.youtube.com/watch?v=uIADUUNJ4xg)
 - Qualifications Section (Inspiration) → [Code Institute Resume Mini-Project](http://bit.ly/381pWFx)
@@ -568,7 +571,7 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 - Contact Me Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
 - Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
-All these snippets of code have been customized for this project's requirements and to match the look and feel of the brand.
+All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the brand.
 
 ### **Media**
 
