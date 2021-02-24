@@ -106,11 +106,7 @@ These are some crucial **user pain points** worth mentioning:
 
 ### **Assumptions | What Are These Users Looking For?**
 
-||||||
-|-----|-----|-----|-----|-----|-----|-----|
-|Consulting|Training|Strategy|Management|Guidance|
-|Clarity|Structure|Mentoring|Speaking|Knowledge|
-|Collaboration|Partnership|Resources|Networking|Development|
+Consulting, Training, Strategy, Management, Guidance, Clarity, Structure, Mentoring, Speaking, Knowledge, Collaboration, Partnership, Free Resources, Networking, Development, Empowerment, Confidence
 
 This list sums up to → **GROW** or **LAUNCH** their businesses and **GROW** professionally. These are just assumptions that still need to be validated.
 
@@ -349,6 +345,7 @@ ____
 - **Mobile**
 - **Tablet**
 - **Desktop**
+![wireframes for desktop, tablet, and mobile](./assets/images/wireframes-img.png "wireframes for desktop, tablet, and mobile")
 
 ## **Surface Plane** 
 ____
@@ -558,10 +555,13 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 - Metadata (SEO Purposes) → [W3 Schools](https://www.w3schools.com/tags/tag_meta.asp)
 - NavBar (Social Media Icons) → [CodeTime](https://www.youtube.com/watch?v=TT1faZ-g9U4) by Peter Medina and Trevor Greenleaf
 - NavBar (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
+- Scrollspy → [Bootstrap](https://getbootstrap.com/docs/5.0/components/scrollspy/)
 - Hero Image → [W3 Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - About Me Section (Grid System) → [Boostrap](https://getbootstrap.com/docs/4.0/layout/grid/)
 - Work Eperience Section (Effect) → [How 2 Create](https://www.youtube.com/watch?v=uIADUUNJ4xg)
+- Qualifications Section (Inspiration) → [Code Institute Resume Mini-Project](http://bit.ly/381pWFx)
 - Qualifications Section (Timeline) → [DevPen](https://www.youtube.com/watch?v=TP4THzsAa3M)
+- How Can I Help Section (Inspiration) → [Code Institute Love Running Mini-Project](http://bit.ly/37M38Jz)
 - How Can I Help Section (Layout) → [Subrata Saha](https://www.youtube.com/watch?v=ZRouuWvN-7A)
 - What I Do Section (Layout) → [Easy Tutorials](https://www.youtube.com/watch?v=JGGhAzUmjAQ) by Vikash and Avinash Kumar
 - Testimonials Section (Layout) → [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY)
