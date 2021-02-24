@@ -296,7 +296,7 @@ At the moment, the website consists in only **1 page containing 11 sections**, o
 ||Work Experience √|What I Do √|Communities √|||
 ||Qualifications √|||||
 
-> Besides the 'Footer' section, which goes after the 'Contact Me' section.
+> Besides the 'Navigation' and 'Footer' section, which goes on top and after the 'Contact Me' section, respectively.
 
 ### **Planned Structure**
 
@@ -551,14 +551,24 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 
 ### **Code**
 
-- Preinstalled  Tools → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-- Favicon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
-- Grid System → [Boostrap](https://getbootstrap.com/docs/4.0/layout/grid/)
-- Spacing → [Boostrap](https://getbootstrap.com/docs/4.0/utilities/spacing/)
-- Anchors → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
-- Metadata → [W3 Schools](https://www.w3schools.com/tags/tag_meta.asp)
-- 
+- Preinstalled  Tools (Development) → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+- Favicon (UX) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
+- Spacing (Responsiveness) → [Boostrap](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+- Anchors (Fix Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
+- Metadata (SEO Purposes) → [W3 Schools](https://www.w3schools.com/tags/tag_meta.asp)
+- NavBar (Social Media Icons) → [CodeTime](https://www.youtube.com/watch?v=TT1faZ-g9U4) by Peter Medina and Trevor Greenleaf
+- NavBar (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
+- Hero Image → [W3 Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- About Me Section (Grid System) → [Boostrap](https://getbootstrap.com/docs/4.0/layout/grid/)
+- Work Eperience Section (Effect) → [How 2 Create](https://www.youtube.com/watch?v=uIADUUNJ4xg)
+- Qualifications Section (Timeline) → [DevPen](https://www.youtube.com/watch?v=TP4THzsAa3M)
+- How Can I Help Section (Layout) → [Subrata Saha](https://www.youtube.com/watch?v=ZRouuWvN-7A)
+- What I Do Section (Layout) → [Easy Tutorials](https://www.youtube.com/watch?v=JGGhAzUmjAQ) by Vikash and Avinash Kumar
+- Testimonials Section (Layout) → [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY)
+- Contact Me Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
+- Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
+All these snippets of code have been customized for this project's requirements and to match the look and feel of the brand.
 
 ### **Media**
 
