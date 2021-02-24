@@ -729,7 +729,7 @@ button.navbar-toggler:focus {
 #contact-section {
     background-image: linear-gradient(to right, #82589F, #c44569);
     color: #F5f6fa;
-    padding: 40px;
+    padding: 45px 40px 0;
     font-family: Poppins, Helvetica, sans-serif;
 }
 
@@ -858,7 +858,7 @@ button.navbar-toggler:focus {
     padding: 12px 25px 10px 25px;
     transition: all 0.5s;
     cursor: pointer;
-    margin-top: 20px;
+    margin: 20px 0 45px;
 }
 
 /* Form CTA Button Hover Effect */
