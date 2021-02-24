@@ -758,6 +758,17 @@ button.navbar-toggler:focus {
     font-size: 15px;
 }
 
+.information {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+.information a {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+
 /* Column 1 Contact Details */
 .contact-information {
     display: flex;

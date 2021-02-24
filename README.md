@@ -42,9 +42,6 @@ It is worth noting that this project is the first milestone in obtaining a **[Fu
     - [Future Additions](# "Future Additions")
   - [Skeleton plane](# "Skeleton plane")
     - [Wireframes](# "Wireframes")
-        - [Mobile](# "Mobile")
-        - [Tablet](# "Tablet")
-        - [Desktop](# "Desktop")
   - [Surface plane](# "Surface plane")
     - [Typography](# "Typography")
     - [Color Scheme](# "Color Scheme")
@@ -67,9 +64,6 @@ It is worth noting that this project is the first milestone in obtaining a **[Fu
     - [Run Project Locally](# "Run Project Locally")
     - [Clone & Fork GitHub Repository](# "Clone & Fork GitHub Repository")
 - [Credits](# "Credits")
-    - [Inspiration](# "Inspiration")
-    - [Code](# "Code")
-    - [Media](# "Media")
 - [Acknowledgements](# "Acknowledgements")
 
 ______
@@ -458,7 +452,7 @@ The following technology was used during the development and testing of this pro
 - Version Control → [Git](https://git-scm.com/)
 
 ### **Frameworks & Libraries**
-- Frameworks → [Bootstrap V4.2.1](https://getbootstrap.com/)
+- Frameworks → [Bootstrap V4.6.0](https://getbootstrap.com/)
 - Fonts → [Google Fonts](https://fonts.google.com/)
 - Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)
 
@@ -569,6 +563,7 @@ To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github
 - What I Do Section (Layout) → [Easy Tutorials](https://www.youtube.com/watch?v=JGGhAzUmjAQ) by Vikash and Avinash Kumar
 - Testimonials Section (Layout) → [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY)
 - Contact Me Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
+- Contact Information (Email Link) → [Tutorials Point](https://www.tutorialspoint.com/html/html_email_links.htm)
 - Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
 All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the brand.
@@ -639,3 +634,4 @@ I would like to thank the following people for the constant support and guidance
 - [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
 - [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
 - [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
+- [Istvan Orosz (Classmate)](https://www.linkedin.com/in/istv%C3%A1n-orosz/) 
