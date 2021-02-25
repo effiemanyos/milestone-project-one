@@ -4,7 +4,7 @@
 
 **[VIEW WEBSITE LIVE](https://effiemanyos.github.io/milestone-project-one/)**
 
-![the logo of the website](./assets/images/effie-manyos-logo.png "tthe logo of the website") 
+![the logo of the website](./assets/images/effie-manyos-logo.png "the logo of the website") 
 
 ## **Milestone Project 1 | User Centric Front-End Development**
 
