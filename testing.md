@@ -1,6 +1,7 @@
-# **Testing**
+# **TESTING**
 
 ## **Issues Solved During Development**
+-----
 
 - ONE
 
@@ -61,8 +62,59 @@ The CSS yielded no errors, so I proceeded with further testing. However, it is w
 
 Just in case, I redid the testing by **File Upload** and the results were exactly the same. 
 
-## **Testing User Stories**
-
 ## **Testing Performance**
+-----
+
+### **1. Desktop**
+
+In order to test the website's performance on desktop and mobile, [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used. The results were the following:
+
+![google lighthouse desktop results](./assets/images/lighthouse-desktop-p1.png "google lighthouse desktop results") 
+
+![google lighthouse desktop results](./assets/images/lighthouse-desktop-p2.png "google lighthouse desktop results") 
+
+![google lighthouse desktop accessibility results](./assets/images/lighthouse-desktop-accessibility.png "google lighthouse desktop accessibility results") 
+
+***Date:*** Thursday, Feb 25th, 2021
+
+**Urgent Issues:**
+
+- **Issue:** Remove unused JavaScript
+
+- **Fixes:**
+
+- **Issue:** Properly size images
+
+- **Fixes:**
+
+- **Issue:** Eliminate render-blocking resources
+
+- **Fixes:**
+
+- **Issue:** Avoid enourmous network payloads
+
+- **Fixes:**
+
+- **Issue:** Image elements do not have explicit widh and height
+
+- **Fixes:**
+
+- **Issue:** Ensure text ramains visible during webfont load
+
+- **Fixes:**
+
+- **Issue:** Form elements do not have associated labels
+
+- **Fixes:**
+
+- **Issue:** Links do not have a discernible name
+
+- **Fixes:**
+
+## **Testing User Stories**
+-----
+
+
 
 ## **Testing Accessibility**
+-----
