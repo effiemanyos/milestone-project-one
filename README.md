@@ -8,7 +8,7 @@
 
 ## **User Centric Front-End Development Milestone Project 1**
 
-### **Introduction & Project Overview:**
+### **Project Overview**
 
 This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, Recent Graduates** achieve their professional goals by providing them with the right tools. From a business perspective, this project is to **build a strategic professional online presence for the owner, promote and sell her services and online courses, build a community around the fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
 
@@ -16,49 +16,38 @@ This project is the first milestone in obtaining a **[Full-Stack Web Development
 
 -------
 
-# **Content** 
+# **CONTENT** 
 
-- [Project Overview](# "Project Overview")
-- [UX Design](# "UX Design")
-  - [Strategy Plane](# "Strategy Plane")
-    - [Target Audience](# "Target Audience")
-    - [User Needs & Assumptions](# "User Needs & Assumptions")
-    - [Site Owner's Goals](# "Site Owner's Goals")
-    - [External User's Goals](# "External User's Goals")
-    - [User Stories](# "User Stories")
-    - [USPs](# "USPs")
-  - [Scope plane](# "Scope plane")
-    - [Existing Features](# "Existing Features")
-    - [Features to Implement](# "Features to Implement")
-  - [Structure plane](# "Structure plane")
-    - [Website Structure](# "Website Structure")
-    - [Planned Structure](# "Planned Structure")
-    - [Future Additions](# "Future Additions")
-  - [Skeleton plane](# "Skeleton plane")
-    - [Wireframes](# "Wireframes")
-  - [Surface plane](# "Surface plane")
-    - [Typography](# "Typography")
-    - [Color Scheme](# "Color Scheme")
-    - [Imagery](# "Imagery")
-- [Technologies Used](# "Technologies Used")
-    - [Languages](# "Languages")
-    - [Workspaces, Version Control, Respository Hosting](# "Workspaces, Version Control, Respository Hosting")
-    - [Frameworks & Libraries](# "Frameworks & Libraries")
-    - [Code Consultations](# "Code Consultations")
-    - [Testing Process](# "Testing Process")
-    - [Other Technologies](# "Other Technologies")
-- [Testing](# "Testing")
-    - [Issues Solved Duringe Development](# "Issues Solved Duringe Development")
-    - [HTML & CSS Validation](# "HTML & CSS Validation")
-    - [Testing Performance](# "Testing Performance")
-    - [Testing Accessibility](# "Testing Accessibility")
-    - [Testing User Stories](# "Testing User Stories")
-- [Deployment](# "Deployment")
-    - [GitHub Pages](# "GitHub Pages")
-    - [Run Project Locally](# "Run Project Locally")
+- [Project Overview](#project-overview "Project Overview")
+- [UX Design](#ux-design "UX Design")
+  - [Strategy Plane](#strategy-plane "Strategy Plane")
+    - [Target Audience](#target-audience "Target Audience")
+    - [User Needs](#user-needs "User Needs")
+    - [Business Goals](#business-goals "Business Goals")
+    - [User Goals](#user-goals "User Goals")
+    - [User Stories](#user-stories "User Stories")
+    - [Unique Selling Proposition](#unique-selling-proposition "Unique Selling Proposition")
+  - [Scope plane](#scope-plane "Scope plane")
+    - [Existing Features](#existing-features "Existing Features")
+    - [Future Iterations](#future-iterations "Future Iterations")
+  - [Structure Plane](#structure-plane "Structure plane")
+    - [Website Structure](#website-structure "Website Structure")
+    - [Planned Structure](#planned-structure "Planned Structure")
+    - [Future Additions](#future-additions "Future Additions")
+  - [Skeleton Plane](#skeleton-plane "Skeleton Plane")
+    - [Wireframes](#wireframes "Wireframes")
+  - [Surface Plane](#surface-plane "Surface Plane")
+    - [Typography](#typography "Typography")
+    - [Color Scheme](#color-scheme "Color Scheme")
+    - [Imagery](#imagery "Imagery")
+- [Technologies Used](#technologies-used "Technologies Used")
+- [Testing](#testing "Testing")
+- [Deployment](#deployment "Deployment")
+    - [GitHub Pages](#github-pages "GitHub Pages")
+    - [Run Project Locally](#run-prject-locally "Run Project Locally")
     - [Clone & Fork Repository](# "Clone & Fork Repository")
-- [Credits](# "Credits")
-- [Acknowledgements](# "Acknowledgements")
+- [Credits](#credits "Credits")
+- [Acknowledgements](#acknowledgements "Acknowledgements")
 
 ______
 
@@ -94,13 +83,14 @@ These are some crucial **user pain points** worth mentioning:
 - **Lack of ideas** on how to grow a business under a tight budget.
 - **Lack of structure** in our processes which lead us to negative outcomes. 
 
-### **Assumptions | What Are These Users Looking For?**
+### **What Are These Users Looking For? | Assumptions**
 
 Consulting, Training, Strategy, Management, Guidance, Clarity, Structure, Mentoring, Speaking, Knowledge, Collaboration, Partnership, Free Resources, Networking, Development, Empowerment, Confidence.
 
 This list leads to **GROW**/**LAUNCH** their businesses or **GROW** professionally. These are just assumptions that still need to be validated once we launch the MVP.
 
-### **Site Owner's Goals | Business Goals**
+### **Business Goals**
+Site Owner's Goals:
 - Build my personal branding
 - Develop a professional online presence
 - Expand my networking opportunities
@@ -115,7 +105,8 @@ This list leads to **GROW**/**LAUNCH** their businesses or **GROW** professional
 - Support Irish economy by helping boost the # of Irish startups
 - Gain more professional experience in Ireland
 
-### **External User's Goals**
+### **User Goals**
+External User's Goals:
 - Find resources to learn and implement
 - Find help to grow my business
 - Find help to ideate and execute my business idea
@@ -151,7 +142,9 @@ This list leads to **GROW**/**LAUNCH** their businesses or **GROW** professional
 
 These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope.
 
-### **Unique Selling Proposition (USP) | Core Differentiators**
+### **Unique Selling Proposition**
+
+USPs or Core Differentiators:
 
 **Service:**
 - International experience working at tech startups, SMEs, and multinational corporations.
@@ -179,10 +172,12 @@ These are just some of the user stories that were created for this project. Howe
 - Membership Options (Monthly/Annual Subscription)
 - Exclusive Content
 
+[Back to Content](#content)
+
 ## **Scope Plane** 
 ____
 
-### **Existing Features | MVP**
+### **Existing Features**
 
 **About Me *"Page"*:**
 - **About Me** → Users can see a brief summary of Effie's biography and who she is. Users are also able to get in touch with her by clicking on the CTA button "Let's Talk!".
@@ -208,7 +203,7 @@ ____
 
 >(*) Not fully functional at the moment
 
-### **Features to Implement | Future Iterations**
+### **Future Iterations**
 
 These are some of the features that still need to be implemented to have a fully working website as required by the owner: 
 
@@ -271,6 +266,8 @@ These are some of the features that still need to be implemented to have a fully
 - Store (Merchandising)
 
 Eventually, integrations or links to tools like Notion, Miro, Trello, Eventbrite, Slack, Google Calendar, Teachable might be included in the website.
+
+[Back to Content](#content)
 
 ## **Structure Plane** 
 ____
@@ -339,6 +336,8 @@ ____
 - **Tablet**
 - **Mobile**
 ![wireframes for desktop, tablet, and mobile](./assets/images/wireframes-img.png "wireframes for desktop, tablet, and mobile")
+
+[Back to Content](#content)
 
 ## **Surface Plane** 
 ____
@@ -436,6 +435,8 @@ When ready, professional photos and videos will be added to the website in vario
 
 At the moment, the imagery used is for academic purposes only in order to meet the project deadline. These images will be replaced before the launch of the website.
 
+[Back to Content](#content)
+
 # **TECHNOLOGIES USED** 
 
 The following technology was used during the development and testing of this project:
@@ -468,7 +469,7 @@ The following technology was used during the development and testing of this pro
 - Website Icon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - Favicon → [W3C](https://www.w3.org/2005/10/howto-favicon) 
 
-### **Testing**
+### **Testing Process**
 - Test/Fix Code → [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 - Website Responsiveness → [Responsive Viewer](https://www.producthunt.com/posts/responsive-viewer)
 - Website Performance → [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
@@ -493,18 +494,13 @@ https://wave.webaim.org/
 
 >(*) This tool was used to create the first version of wireframes. However, the structure and the design of the website had to be modified to meet the project deadline.
 
+[Back to Content](#content)
+
 # **TESTING**  
 
-### **Issues Solved Duringe Development**
+The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/milestone-project-one/blob/master/testing.md).
 
-All issues... XXX
-
-### **Testing User Stories**
-### **Testing Accessibility**
-### **Testing Performance (Google Lighthouse)**
-### **HTML & CSS Validation**
-
-The entire testing process, issues and bugs found, solutions, and final results can be found here.
+[Back to Content](#content)
 
 # **DEPLOYMENT**
 
@@ -535,6 +531,8 @@ This project was deployed to **GitHub Pages** following these steps:
 To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github.com/effiemanyos/milestone-project-one)) into your [GitHub](https://github.com/) account please follow these steps:
 - [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 - [Fork a Repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+
+[Back to Content](#content)
 
 # **CREDITS** 
 
@@ -629,6 +627,8 @@ All these snippets of code have been fully customized for this project's require
 - [Portrait 2](https://unsplash.com/photos/iFgRcqHznqg) by [Joseph Gonzalez](https://unsplash.com/@miracletwentyone) taken from [Unsplash](https://unsplash.com/)
 - [Portrait 3](https://unsplash.com/photos/rriAI0nhcbc) by [Jack Finnigan](https://unsplash.com/@jackofallstreets) taken from [Unsplash](https://unsplash.com/)
 
+[Back to Content](#content)
+
 # **ACKNOWLEDGEMENTS** 
 
 I would like to thank the following people for the constant support and guidance during my learning process: 
@@ -638,3 +638,5 @@ I would like to thank the following people for the constant support and guidance
 - [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
 - [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
 - [Istvan Orosz (Classmate)](https://www.linkedin.com/in/istv%C3%A1n-orosz/) 
+
+[Back to Content](#content)

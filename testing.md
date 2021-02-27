@@ -1,3 +1,13 @@
+# **Content** 
+
+- [Testing](#testing "Testing")
+  - [Issues Solved During Development](#issues-solved-during-development "Issues Solved During Development")
+  - [HTML-CSS Validation Testing](#html-css-validation-testing "HTML-CSS Validation Testing")
+  - [Testing Performance](#testing-performance "Testing Performance")
+  - [Testing Accessibility](#testing-accessibility "Testing Accessibility")
+  - [Testing User Stories](#testing-user-stories "Testing User Stories")
+  - [Code Institute Peer Code Review](#code-institute-peer-code-review "Code Institute Peer Code Review")
+
 # **TESTING**
 
 The website was tested in the following **browsers**:
@@ -45,7 +55,7 @@ The most important issues that were found during development that took a conside
 
 - FIVE
 
-## **HTML/CSS Validation Testing**
+## **HTML-CSS Validation Testing**
 -----
 
 ### **1. HTML Validation**
@@ -89,19 +99,19 @@ Just in case, the testing was done again, this time by **File Upload**, and the 
 
 In order to test the website's performance on **desktop** and **mobile**, [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used in both cases.
 
-### **1. Desktop**
+### **Desktop & Mobile**
 
 The **initial results** were the following:
 
-![google lighthouse desktop results](./assets/images/lighthouse-desktop-p1.png "google lighthouse desktop results") 
+![google lighthouse results](./assets/images/lighthouse-p1.png "google lighthouse results") 
 
-![google lighthouse desktop results](./assets/images/lighthouse-desktop-p2.png "google lighthouse desktop results") 
+![google lighthouse results](./assets/images/lighthouse-p2.png "google lighthouse results") 
 
-![google lighthouse desktop accessibility results](./assets/images/lighthouse-desktop-accessibility.png "google lighthouse desktop accessibility results") 
+![google lighthouse accessibility results](./assets/images/lighthouse-accessibility.png "google lighthouse accessibility results") 
 
-![google lighthouse desktop best practices results](./assets/images/lighthouse-desktop-bestpractices.png "google lighthouse desktop best practices results") 
+![google lighthouse best practices results](./assets/images/lighthouse-bestpractices.png "google lighthouse best practices results") 
 
-![google lighthouse desktop runtime settings](./assets/images/runtime-settings.png "google lighthouse desktop runtime settings") 
+![google lighthouse runtime settings](./assets/images/runtime-settings.png "google lighthouse runtime settings") 
 
 ***Date:*** Thursday, Feb 25th, 2021
 
@@ -109,15 +119,11 @@ The following actions were taken to improve the performance of the website, espe
 
 **Urgent Issues:**
 
-**1. Issue:** Remove unused JavaScript
-
-- **Fixes:**
-
-**2. Issue:** Properly size images / Avoid enourmous network payloads
+**1. Issue:** Properly size images / Avoid enourmous network payloads
 
 - **Fixes:** Unfortunatly, due to the lack of time this issue could not be solved before the project deadline. However, all the images used on the website will be converted from PNG to formats like JPEG 2000 or WebP to provide better compression for faster downloads and less data consumption. The tools that will be used for this are the following: [Convertio (PNG to WebP)](https://convertio.co/png-webp/) and [TinyPNG (Image Compression)](https://tinypng.com/). **Goal:** Less than 550KB per image.
 
-**3. Issue:** Links to cross-origin destinations are unsafe
+**2. Issue:** Links to cross-origin destinations are unsafe
 
 - **Fixes:** This issue was simply fixed by adding `rel="noopener"` to all external links to prevent security vulnerabilities.
 
@@ -128,7 +134,7 @@ The following actions were taken to improve the performance of the website, espe
 </li>
 ```
 
-**4. Issue:** Image elements do not have explicit widh and height
+**3. Issue:** Image elements do not have explicit widh and height
 
 - **Fixes:** Unfortunatly, due to the lack of time this issue could not be solved before the project deadline. However, explicit `width` and `height` (size attributes) will be set on image and video elements to reduce layout shifts and improve CLS (Cumulative Layout Shift) like explained in [Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions).
 
@@ -137,7 +143,7 @@ The following actions were taken to improve the performance of the website, espe
 <img src="community-logo.jpg" width="640" height="360" alt="the club community official logo"/>
 ```
 
-**5. Issue:** Background and foreground colors do not have a sufficient contrast ratio √
+**4. Issue:** Background and foreground colors do not have a sufficient contrast ratio √
 
 - **Fixes:** This issue was simply fixed by increasing the contrast of the colors in the background and foreground.
 
@@ -150,11 +156,11 @@ The following actions were taken to improve the performance of the website, espe
 *Final Result:*
 ![background and foreground new colors](./assets/images/increased-contrast.png "background and foreground new colors") 
 
-**6. Issue:** Ensure text ramains visible during webfont load
+**5. Issue:** Ensure text ramains visible during webfont load
 
 - **Fixes:**
 
-**7. Issue:** Form elements do not have associated labels
+**6. Issue:** Form elements do not have associated labels
 
 - **Fixes:** This issue was simply fixed by adding the associated labels to all form elements.
 
@@ -172,19 +178,12 @@ label {
 ```
 
 *Final Result:*
+
 ![background and foreground new colors](./assets/images/form-labels.png "background and foreground new colors")
 
-**8. Issue:** Links do not have a discernible name
+*Final Results:*
 
-- **Fixes:**
-
-### **1. Mobile**
-
-The initial results were the following:
-
-![google lighthouse mobile results](./assets/images/lighthouse-desktop-p1.png "google lighthouse mobile results") 
-
-
+![google lighthouse final results](./assets/images/lighthouse-finalresults.png "google lighthouse final results")
 
 ## **Testing Accessibility**
 -----
@@ -199,9 +198,9 @@ All "errors" and "alerts" were analysed in detail and the **conclusions** were t
 
 - All the **alerts** were actually made on purpose for academic reasons only as the external links used in the development of this project are not the real ones (e.g.: social media links) or they have been duplicated as the information shared on the site requires:
 
-![wave accessibility errors results](./assets/images/wave-accessibility-redundantlinks1.png "wave accessibility errors and alerts results")
+![wave accessibility alerts results](./assets/images/wave-accessibility-redundantlinks1.png "wave accessibility errors and alerts results")
 
-![wave accessibility errors results](./assets/images/wave-accessibility-redundantlinks2.png "wave accessibility errors and alerts results")
+![wave accessibility alerts results](./assets/images/wave-accessibility-redundantlinks2.png "wave accessibility errors and alerts results")
 
 - All these **errors** on the site are the same, the `<a>` tag doesn't contain any text: 
 
@@ -229,7 +228,36 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 
 > Credit: ["Add Text Alternate to Social Media Icons" by Sylvia Pellicore](https://github.com/girldevelopit/gdi-website/issues/344)
 
+*Final Results:*
+
+![wave accessibwaveility errors results](./assets/images/wave-accessibility-finalresults.png "wave accessibility errors and alerts results")
+
 ## **Testing User Stories**
 -----
 
+1. XXX
+2. XXX
+3. XXX
+4. XXX
+5. XXX
+6. XXX
+7. XXX
+8. XXX
+9. XXX
+10. XXX
 
+
+
+## **Code Institute Peer-Code-Review**
+-----
+
+- **Sean McMahon:** "Beautiful design and very consistent. I really like the transitions on the company logos."
+- **Francis Kershaw:** "This is so good, Effie! Can tell how hard you've worked on it, well done!"
+- **Janelle MacMillan:** "I think this looks great, Effie, and I really can't find anything other than that to say about it."
+- **Michael Nota Rita:** "It looks great! 5 stars for me!"
+
+Unfortunatly, there were no constructive feedback to work on in order to improve user experience despite it was requested twice.
+
+- **Cormac Lawlor:** "That's super impressive! Love it. One thing, your images like your hero are massive! It's slowing down your site. Might be worth reducing the file size."
+
+[Return to README.md Document.](https://github.com/effiemanyos/milestone-project-one/blob/master/README.md)
