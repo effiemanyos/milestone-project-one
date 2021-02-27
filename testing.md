@@ -77,6 +77,8 @@ In order to test the website's performance on desktop and mobile, [Google Lighth
 
 ***Date:*** Thursday, Feb 25th, 2021
 
+The following actions were taken to improve the performance of the website:
+
 **Urgent Issues:**
 
 - **Issue:** Remove unused JavaScript
@@ -111,10 +113,12 @@ In order to test the website's performance on desktop and mobile, [Google Lighth
 
 - **Fixes:**
 
+## **Testing Accessibility**
+-----
+
+
+
 ## **Testing User Stories**
 -----
 
 
-
-## **Testing Accessibility**
------

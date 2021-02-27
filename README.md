@@ -6,25 +6,19 @@
 
 ![the logo of the website](./assets/images/effie-manyos-logo.png "the logo of the website") 
 
-## **Milestone Project 1 | User Centric Front-End Development**
+## **User Centric Front-End Development Milestone Project 1**
 
-### **Introduction & Project Description:**
-- Briefly introduce the project
-- What's the motivation behind creating it
-- What does it aim to solve and for whom
+### **Introduction & Project Overview:**
 
-This project consists of a **static front-end site** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entre Level Professionals, and Recent Graduates** achieve their professional goals by providing them with the right tools. 
+This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, and Recent Graduates** achieve their professional goals by providing them with the right tools and network. Additionally, the main purpose of this project is to **build a strategic professional online presence, promote the owner's services, sell her online courses, build a community around those fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
 
-However, the main purpose of this project is to **build a strategic professional online presence, promote my services, sell my online courses, build a community around those fields of interest, become an Irish thought leader, and build a solid personal branding**. 
-
-It is worth noting that this project is the first milestone in obtaining a **[Full Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Only HTML & CSS were required, but other technologies were slightly used to improve the quality and user experience.
+This project is the first milestone in obtaining a **[Full-Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Only **HTML** and **CSS** were required for this project (**Bootstrap** was optional); however, other technologies were slightly used to improve the overall quality and user experience.
 
 -------
 
 # **Content** 
 
-- [Introduction](# "Introduction")
-- [Demo](# "Demo")
+- [Project Overview](# "Project Overview")
 - [UX Design](# "UX Design")
   - [Strategy Plane](# "Strategy Plane")
     - [Target Audience](# "Target Audience")
@@ -32,10 +26,10 @@ It is worth noting that this project is the first milestone in obtaining a **[Fu
     - [Site Owner's Goals](# "Site Owner's Goals")
     - [External User's Goals](# "External User's Goals")
     - [User Stories](# "User Stories")
-    - [Unique Selling Proposition](# "Unique Selling Proposition")
+    - [USPs](# "USPs")
   - [Scope plane](# "Scope plane")
-    - [Existing Features (MVP)](# "Existing Features (MVP)")
-    - [Features to Implement (Iterations)](# "Future Iterations")
+    - [Existing Features](# "Existing Features")
+    - [Features to Implement](# "Features to Implement")
   - [Structure plane](# "Structure plane")
     - [Website Structure](# "Website Structure")
     - [Planned Structure](# "Planned Structure")
@@ -51,18 +45,18 @@ It is worth noting that this project is the first milestone in obtaining a **[Fu
     - [Workspaces, Version Control, Respository Hosting](# "Workspaces, Version Control, Respository Hosting")
     - [Frameworks & Libraries](# "Frameworks & Libraries")
     - [Code Consultations](# "Code Consultations")
-    - [Testing](# "Testing")
+    - [Testing Process](# "Testing Process")
     - [Other Technologies](# "Other Technologies")
 - [Testing](# "Testing")
     - [Issues Solved Duringe Development](# "Issues Solved Duringe Development")
-    - [Testing User Stories](# "Testing User Stories")
-    - [Testing Accessibility](# "Testing Accessibility")
-    - [Testing Performance](# "Testing Performance")
     - [HTML & CSS Validation](# "HTML & CSS Validation")
+    - [Testing Performance](# "Testing Performance")
+    - [Testing Accessibility](# "Testing Accessibility")
+    - [Testing User Stories](# "Testing User Stories")
 - [Deployment](# "Deployment")
     - [GitHub Pages](# "GitHub Pages")
     - [Run Project Locally](# "Run Project Locally")
-    - [Clone & Fork GitHub Repository](# "Clone & Fork GitHub Repository")
+    - [Clone & Fork Repository](# "Clone & Fork Repository")
 - [Credits](# "Credits")
 - [Acknowledgements](# "Acknowledgements")
 
@@ -75,14 +69,16 @@ ____
 
 ### **Target Audience**
 - Entrepreneurs/Solopreneurs
-- Tech Startups (Budget: Low/None)
-- SMEs (Budget: Tight/Low)
+- Tech Startups
+- SMEs
 - Non-Profits
 - Mentees
 - Entry-Level Professionals
 - Recent Graduates
 
-**Countries:** Ireland (Residence), Spain (Nationality), Peru (Origin)
+All working under the constraints of a **tight/no budget**.
+
+**Countries:** Ireland (Residence), Spain (Origin), Peru (Origin)
 
 **Age:** Not Specified (Yet)
 
@@ -102,7 +98,7 @@ These are some crucial **user pain points** worth mentioning:
 
 Consulting, Training, Strategy, Management, Guidance, Clarity, Structure, Mentoring, Speaking, Knowledge, Collaboration, Partnership, Free Resources, Networking, Development, Empowerment, Confidence.
 
-This list sums up to **GROW** or **LAUNCH** their businesses and **GROW** professionally. These are just assumptions that still need to be validated once we launch the MVP.
+This list leads to **GROW**/**LAUNCH** their businesses or **GROW** professionally. These are just assumptions that still need to be validated once we launch the MVP.
 
 ### **Site Owner's Goals | Business Goals**
 - Build my personal branding
@@ -148,6 +144,9 @@ This list sums up to **GROW** or **LAUNCH** their businesses and **GROW** profes
 - As a **First Time Visitor**, I want to make sure this site is not a scam so that I can use these resources and services to increase my client base.
 
 *Returning Visitor:*
+- As a **Returning Visitor**, I want to contact Effie... 
+
+*Frequent Visitor:*
 - As a **Returning Visitor**, I want to contact Effie... 
 
 These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope.
@@ -336,9 +335,9 @@ ____
 
 ### **Wireframes**
 
-- **Mobile**
+- **Dektop**
 - **Tablet**
-- **Desktop**
+- **Mobile**
 ![wireframes for desktop, tablet, and mobile](./assets/images/wireframes-img.png "wireframes for desktop, tablet, and mobile")
 
 ## **Surface Plane** 
@@ -392,7 +391,7 @@ The following styling has been used for consistency and alignment throughout the
 
 ```CSS
 /* CTA Buttons Text Styling */
-.paragraphs {
+.cta-buttons {
     font-family: Poppins, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 12px;
@@ -423,9 +422,9 @@ At the end, only these colours were used throughout the entire website (MVP stag
 
 ### **Imagery**
 
-Illustrations will be taken from **[UnDraw](https://undraw.co/)** to improve the UX. These illustrations have been modified to match the website and brand colours.
+Illustrations were taken from **[UnDraw](https://undraw.co/)** to improve the UX. These illustrations have been modified to match the website and brand colours.
 
-Professional photographies from **[Unsplash](https://unsplash.com/)** have been used for the Hero Image, Work Experience and Testimonials section of the site. 
+Professional photographies from **[Unsplash](https://unsplash.com/)** have been used for the Hero Image, Work Experience and Testimonials section of the website. 
 
 When ready, professional photos and videos will be added to the website in various sections. Some of the images and videos will come from:
 - Workshops
@@ -476,6 +475,8 @@ The following technology was used during the development and testing of this pro
 - Validate HTML → [W3C HTML Validator](https://validator.w3.org/)
 - Validate CSS → [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+https://wave.webaim.org/ 
+
 ### **Other Technologies**
 - Mockup → [Responsive Design](http://ami.responsivedesign.is/)
 - Mockup → [Techsini Mockup Generator](http://techsini.com/multi-mockup/)
@@ -488,6 +489,7 @@ The following technology was used during the development and testing of this pro
 - Colour Scheme → [Coolors](https://coolors.co/)
 - Shapes & Diagrams → [Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)
 - Crop Portraits → [Crop Circle](https://crop-circle.imageonline.co/)
+- Image Compression → [TinyJPG](https://tinyjpg.com/)
 
 >(*) This tool was used to create the first version of wireframes. However, the structure and the design of the website had to be modified to meet the project deadline.
 
@@ -630,7 +632,7 @@ All these snippets of code have been fully customized for this project's require
 # **ACKNOWLEDGEMENTS** 
 
 I would like to thank the following people for the constant support and guidance during my learning process: 
-- [Cormac Lawlor](https://www.linkedin.com/in/cormac-lawlor/)
+- [Cormac Lawlor (Tutor)](https://www.linkedin.com/in/cormac-lawlor/)
 - [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
 - [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
 - [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
