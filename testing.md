@@ -189,7 +189,36 @@ The initial results were the following:
 ## **Testing Accessibility**
 -----
 
+To test the website accessibility [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used. The obtained results are the following:
 
+![wave accessibility results](./assets/images/wave-accessibility-results.png "wave accessibility results") 
+
+![wave accessibility errors and alerts results](./assets/images/wave-accessibility-errorsalerts.png "wave accessibility errors and alerts results")
+
+All "errors" and "alerts" were analysed in detail and the **conclusions** were the following: 
+
+- All the **alerts** were actually made on purpose for academic reasons only as the external links used in the development of this project are not the real ones (e.g.: social media links) or they have been duplicated as the information shared on the site requires:
+
+![wave accessibility errors results](./assets/images/wave-accessibility-redundantlinks1.png "wave accessibility errors and alerts results")
+
+![wave accessibility errors results](./assets/images/wave-accessibility-redundantlinks2.png "wave accessibility errors and alerts results")
+
+- All these **errors** on the site are the same, the `<a>` tag doesn't contain any text: 
+
+
+In order to fix this to improve the accessibility of the website, `alt text` was added to all social media icons so that the text can be detected by screen readers only:
+
+```HTML
+<!-- Name -->
+<label for="fullname">Full Name</label>
+<input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required/>
+```
+
+<a target="_blank" href="https://www.facebook.com/girldevelopit">
+  <i class="fa fa-facebook"><span class="sr-only">GDI Facebook</span></i>
+</a>
+
+> Credit: [Add Text Alternate to Social Media Icons by Sylvia Pellicore](https://github.com/girldevelopit/gdi-website/issues/344)
 
 ## **Testing User Stories**
 -----

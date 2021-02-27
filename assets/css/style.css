@@ -1185,3 +1185,11 @@ label {
         padding-bottom: 25px;
     }
 }
+
+/* Social Media Icons Hidden Text */
+.sr-only {
+    font-size: 0;
+    height: 1px;
+    overflow: hidden;
+    display: block;
+}
