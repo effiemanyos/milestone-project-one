@@ -245,16 +245,57 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 ## **Testing User Stories**
 -----
 
-1. XXX
-2. XXX
-3. XXX
-4. XXX
-5. XXX
-6. XXX
-7. XXX
-8. XXX
-9. XXX
-10. XXX
+*Target Audience:*
+
+1. As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales.
+    > XXXX
+2. As a **Tech Startup**, I want to **use** Effie's **free online resources** so that we can create a robust Digital Marketing strategy.
+    > XXXX
+3. As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase our business' online presence and engagement.
+    > XXXX
+4. As a **Non-Profit**, I want to **contact** Effie for a **collaboration** and **consulting session** so that we can grow the organization organically.
+    > XXXX
+5. As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
+    > XXXX
+6. As an **Entry-Level Professional**, I want to **join** Effie's **networking community** so that I can land my first full-time job faster through contacts.
+    > XXXX
+7. As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
+    > XXXX
+8. As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.
+    > XXXX
+
+*Visitor Types:*
+
+1. As a **First Time Visitor**, I want to know **who Effie is** and what she does so that I can evaluate if I need her expertise to scale my business (SMEs)
+    > XXXX
+2. As a **First Time Visitor**, I want to know what **qualifications** Effie has so that I can use the resources she offers to increase my client base and profit (Entry-Level Professionals)
+    > XXXX
+3. As a **First Time Visitor**, I want to know what kind of **services** Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
+    > XXXX
+4. As a **First Time Visitor**, I want to know about Effie's **work experience** so that I can get in touch with her once I finish my studies (Recent Graduates)
+    > XXXX
+5. As a **First Time Visitor**, I want to Know **what other people say about Effie** so that I can hire her to manage my social media accounts (Solopreneurs)
+    > XXXX
+
+6. As a **Returning Visitor**, I want to **make sure** Effie's **site is not a scam** so that I can pay for her services before the product launch (Tech Startups)
+    > XXXX
+7. As a **Returning Visitor**, I want to **contact** Effie so that we can work together on my business growth and retention rates (SMEs)
+    > XXXX
+8. As a **Returning Visitor**, I want to **book** Effie's **free consultation** so that I can create a solid Digital Marketing strategy for my business (Solopreneurs)
+    > XXXX
+9. As a **Returning Visitor**, I want to **call Effie directly** so that I can start working with her on my personal branding to get a corporate job in Ireland (Professional Expats)
+    > At the moment, the booking (Calendly integration) is not an available feature; however, users can book their free consultations through the Contact Me Form or by Calling Directly. Navigation Bar (Contact), About Me Section (CTA Button), How Can I Help Section (CTA Button), What I Do (CTA Button), Get In Touch Section (Contact Information & Form).
+10. As a **Returning Visitor**, I want to **send Effie a message** so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
+    > XXXX
+
+*Frequent Visitors:*
+- As a **Frequent Visitor**, I want to **register** to Effie's **upcoming online workshops and events** so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
+- As a **Frequent Visitor**, I want to **join Effie's community for expats (Huasi)** so that I can meet more connections to land my dream job faster (Professional Expats)
+- As a **Frequent Visitor**, I want to **pay a monthly or annually subscription** so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
+- As a **Frequent Visitor**, I want to **pay online for Effie's services** so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
+- As a **Frequent Visitor**, I want to **get the freemium plan** so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
+
+As stated in the [README.md](https://github.com/effiemanyos/milestone-project-one/blob/master/README.md) file, these lasts features required by the **returning visitors** will be implemented the second month after the launch of the MVP.
 
 [Back to Content](#content)
 

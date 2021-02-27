@@ -126,30 +126,30 @@ External User's Goals:
 - As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
 - As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.  
 
-**Visitors Type:**
+**Visitor Types:**
 
 *First-Time Visitor:*
-- As a **First Time Visitor**, I want to know who Effie is and what she does so that I can evaluate if I need her to scale my business (SMEs)
-- As a **First Time Visitor**, I want to know what qualifications Effie has so that I can use the resources she offers to increase my client base and annual profit (Entry-Level Professionals)
-- As a **First Time Visitor**, I want to know what kind of services Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
-- As a **First Time Visitor**, I want to Know what other people say about Effie so that I can hire her to manage my social media accounts (Solopreneurs)
-- As a **First Time Visitor**, I want to know about Effie's work experience so that I can get in touch with her once I finish my studies (Recent Graduates)
+- As a **First Time Visitor**, I want to know **who Effie is** and what she does so that I can evaluate if I need her expertise to scale my business (SMEs)
+- As a **First Time Visitor**, I want to know what **qualifications** Effie has so that I can use the resources she offers to increase my client base and profit (Entry-Level Professionals)
+- As a **First Time Visitor**, I want to know what kind of **services** Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
+- As a **First Time Visitor**, I want to Know **what other people say about Effie** so that I can hire her to manage my social media accounts (Solopreneurs)
+- As a **First Time Visitor**, I want to know about Effie's **work experience** so that I can get in touch with her once I finish my studies (Recent Graduates)
 
 *Returning Visitor:*
-- As a **Returning Visitor**, I want to make sure Effie's site is not a scam so that I can pay for her services before the product launch (Tech Startups)
-- As a **Returning Visitor**, I want to contact Effie so that we can work together on my business growth and retention rates (SMEs)
-- As a **Returning Visitor**, I want to book Effie's free consultation so that I can create a solid Digital Marketing strategy for my business (Solopreneurs)
-- As a **Returning Visitor**, I want to call Effie directly so that I can start working with her on my personal branding to get a corporate job in Ireland (Professional Expats)
-- As a **Returning Visitor**, I want to send Effie a message so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
+- As a **Returning Visitor**, I want to **make sure** Effie's **site is not a scam** so that I can pay for her services before the product launch (Tech Startups)
+- As a **Returning Visitor**, I want to **contact** Effie so that we can work together on my business growth and retention rates (SMEs)
+- As a **Returning Visitor**, I want to **book** Effie's **free consultation** so that I can create a solid Digital Marketing strategy for my business (Solopreneurs)
+- As a **Returning Visitor**, I want to **call Effie directly** so that I can start working with her on my personal branding to get a corporate job in Ireland (Professional Expats)
+- As a **Returning Visitor**, I want to **send Effie a message** so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
 
 *Frequent Visitor:*
-- As a **Frequent Visitor**, I want to register to Effie's online workshop so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
-- As a **Frequent Visitor**, I want to join Effie's community for expats (Huasi) so that I can meet more connections to land my dream job faster (Professional Expats)
-- As a **Frequent Visitor**, I want to pay the monthly or annually subscription so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
-- As a **Frequent Visitor**, I want to hire Effie's services so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
-- As a **Frequent Visitor**, I want to get the freemium plan so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
+- As a **Frequent Visitor**, I want to **register** to Effie's **upcoming online workshops and events** so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
+- As a **Frequent Visitor**, I want to **join Effie's community for expats (Huasi)** so that I can meet more connections to land my dream job faster (Professional Expats)
+- As a **Frequent Visitor**, I want to **pay a monthly or annually subscription** so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
+- As a **Frequent Visitor**, I want to **pay online for Effie's services** so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
+- As a **Frequent Visitor**, I want to **get the freemium plan** so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
 
-These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope. The MVP is now more oriented to building brand awareness, confidence, trust and social proof. The features required by the **returning visitors** will be implemented and launch by the second month of the MVP launch.
+These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope. The MVP is now more oriented to building brand awareness, confidence, trust and social proof. The features required by the **returning visitors** will be implemented the second month after the launch of the MVP.
 
 ### **Unique Selling Proposition**
 
