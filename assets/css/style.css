@@ -192,6 +192,294 @@ button.navbar-toggler:focus {
     background-position: center;
 }
 
+/* ------------------------------------[ Work Experience & Communities Section ]-------------------------------------- */
+
+/* Section Styling (Communities */
+#communities-section {
+    background: #e7e8ef;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    color: #82589F;
+    padding: 40px 20px 35px;
+}
+
+/* Section Styling (Work Experience) */
+#work-experience {
+    background: #f1f1f1;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    color: #434343;
+    padding: 40px 20px 35px;
+}
+
+/* Content Styling */
+.communities-wrap,
+.experience-wrap {
+    height: auto;
+    text-align: center;
+    max-width: 1100px;
+}
+
+/* Intro Title */
+.communities-wrap h2,
+.experience-wrap h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.communities-wrap p,
+.experience-wrap p {
+    max-width: 550px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px 0 30px;
+}
+
+/* Communities Styling */
+.communities,
+.companies {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Communities List Styling */
+.communities ul,
+.companies ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Communities List Items */
+.communities ul li,
+.companies ul li {
+    list-style: none;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 12px 20px 5px; /*space between logos*/
+    transition: .5s;
+}
+
+/* Main Logos */
+.communities ul li img,
+.companies ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* -----[ Hover Effect ]----- */
+
+.communities ul li img:nth-child(1),
+.companies ul li img:nth-child(1) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.communities ul li img:nth-child(2),
+.companies ul li img:nth-child(2) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.communities ul li:hover img:nth-child(1),
+.companies ul li:hover img:nth-child(1) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+.communities ul li:hover img:nth-child(2),
+.companies ul li:hover img:nth-child(2) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+@media screen and (max-width:500px) {
+.communities ul li,
+.companies ul li {
+    width: 130px;
+    height: 130px;
+    margin: 12px 10px 5px; /*space between logos*/
+}
+}
+
+/* ------------------------------------[ Qualifications Section ]-------------------------------------- */
+
+/* Section Styling */
+#qualifications {
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #82589F, #c44569);
+    color: #F5f6fa;
+    padding: 50px 50px 0 100px;
+}
+
+/* Section Row Styling */
+#qualifications .row {
+    max-width: 1050px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+/* Intro Title */
+.qualifications-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.qualifications-intro p {
+    font-family: Poppins, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    max-width: 550px;
+    margin: 0 auto 40px;
+}
+
+/* Timeline Styling */
+.timeline {
+    max-width: 700px; /* IMPORTANTE */
+    margin: 0 auto;
+}
+
+/* Timeline Body */
+.timeline-body {
+    position: relative;
+    margin-left: 100px;
+    border-radius: 0 8px 8px 0;
+    padding: 2px 0;
+}
+
+/* Timeline Vertical Line */
+.timeline-body::after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: #F5f6fa;
+    position: absolute;
+    left: -4px;
+    top: 0;
+}
+
+/* Timeline Item */
+.timeline-item {
+    position: relative;
+}
+
+/* Timeline Small Circles */
+.timeline-item::after {
+    content: '';
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 3px solid #F5f6fa;
+    background-color: #F5f6fa;
+    position: absolute;
+    left: -14px;
+    top: 0px;
+    z-index: 9;
+}
+
+/* School Logos */
+.school-logo {
+    position: absolute;
+    left: -130px;
+    top: 0;
+    width: 110px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Timeline Years Styling */
+.qualifications-content h2 {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* Section Subtitles */
+.qualifications-content h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+/* Section Schools Responsive */
+.qualifications-content h4 {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Descriptive Paragraph */
+.qualifications-content p {
+    font-size: 15px;
+    font-family: Poppins, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+/* Horizontal Dashed Line */
+.qualifications-content {
+    margin: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #F5f6fa;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+}
+
+@media screen and (max-width:600px) {
+.school-logo {
+    display: none;
+}
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+
+#qualifications .col {
+    padding: 0;
+    right: 40px;
+}
+
+.qualifications-intro {
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+.qualifications-intro h2 {
+    font-size: 35px;
+}
+
+.qualifications-content p {
+    display: none;
+}
+}
+
 /* ------------------------------------[ How Can I Help Section ]-------------------------------------- */
 
 /* Section Styling */
@@ -542,6 +830,175 @@ button.navbar-toggler:focus {
 }
 }
 
+/* ------------------------------------[ Contact Me Section ]-------------------------------------- */
+
+/* Section Styling */
+#contact-section {
+    background-image: linear-gradient(to right, #82589F, #c44569);
+    color: #F5f6fa;
+    padding: 45px 40px 0;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+/* Section Title */
+.contact-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Column 1 Title */
+.contact-info h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+/* Column 1 Paragraph */
+.contact-info .text  {
+    margin: 24px 0 32px 0;
+    font-size: 15px;
+}
+
+.information {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+.information a {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+
+/* Column 1 Contact Details */
+.contact-information {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Column 1 Contact Details Icons */
+.contact-information i {
+    margin: 0 15px 18px 0;
+    height: 35px;
+    width: 35px;
+    background-color: #f5f6fa;
+    color: #82589F;
+    font-size: 18px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Follow Me Section */
+.social-media {
+    padding: 10px 0 15px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+}
+
+/* Social Media Individual Icons */
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #F5f6fa;
+    color: #82589F;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 8px 30px 0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+/* Social Media Icons Hover Effect */
+.social-icons a:hover {
+  transform: scale(1.12);
+}
+
+/* Column 2 Subtitle */
+.form-intro h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 12px 0 20px;
+}
+
+/* Form Alignment */
+.container-fluid .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Center Form */
+.center-form {
+    margin: auto;
+}
+
+/* Inner Form */
+.form-control {
+    margin: 8px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Form CTA Button */
+.button {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: #F5f6fa;
+    color: #000;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 25px 10px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px 0 45px;
+}
+
+/* Form CTA Button Hover Effect */
+.button:hover {
+    background: #000;
+    color: #f5f6fa;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+.contact-info,
+.contact-information,
+.social-icons {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F5f6fa;
+}
+}
+
 /* ------------------------------------[ Footer Section ]-------------------------------------- */
 
 /* Section Styling */
@@ -722,461 +1179,4 @@ button.navbar-toggler:focus {
         padding-top: 60px;
         padding-bottom: 25px;
     }
-}
-
-/* ------------------------------------[ Contact Me Section ]-------------------------------------- */
-
-/* Section Styling */
-#contact-section {
-    background-image: linear-gradient(to right, #82589F, #c44569);
-    color: #F5f6fa;
-    padding: 45px 40px 0;
-    font-family: Poppins, Helvetica, sans-serif;
-}
-
-/* Section Title */
-.contact-intro h2 {
-    font-family: Neucha, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: 4px;
-    text-align: center;
-}
-
-/* Column 1 Title */
-.contact-info h2 {
-    font-family: Neucha, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 25px;
-    margin-top: 12px;
-}
-
-/* Column 1 Paragraph */
-.contact-info .text  {
-    margin: 24px 0 32px 0;
-    font-size: 15px;
-}
-
-.information {
-    text-decoration: none;
-    color: #F5f6fa;
-}
-
-.information a {
-    text-decoration: none;
-    color: #F5f6fa;
-}
-
-
-/* Column 1 Contact Details */
-.contact-information {
-    display: flex;
-    margin: 5px 0;
-    align-items: center;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-/* Column 1 Contact Details Icons */
-.contact-information i {
-    margin: 0 15px 18px 0;
-    height: 35px;
-    width: 35px;
-    background-color: #f5f6fa;
-    color: #82589F;
-    font-size: 18px;
-    border-radius: 5px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-}
-
-/* Follow Me Section */
-.social-media {
-    padding: 10px 0 15px;
-}
-
-/* Social Media Icons */
-.social-icons {
-    display: flex;
-}
-
-/* Social Media Individual Icons */
-.social-icons a {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: #F5f6fa;
-    color: #82589F;
-    text-align: center;
-    line-height: 35px;
-    margin: 0 8px 30px 0;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    transition: 0.3s;
-}
-
-/* Social Media Icons Hover Effect */
-.social-icons a:hover {
-  transform: scale(1.12);
-}
-
-/* Column 2 Subtitle */
-.form-intro h3 {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 25px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 12px 0 20px;
-}
-
-/* Form Alignment */
-.container-fluid .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* Center Form */
-.center-form {
-    margin: auto;
-}
-
-/* Inner Form */
-.form-control {
-    margin: 8px;
-    font-family: Poppins, Helvetica, sans-serif;
-    font-size: 12px;
-    border-radius: 5px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-}
-
-/* Form CTA Button */
-.button {
-    font-family: Poppins, Helvetica, sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    background-color: #F5f6fa;
-    color: #000;
-    border-radius: 30px;
-    border: none;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    padding: 12px 25px 10px 25px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 20px 0 45px;
-}
-
-/* Form CTA Button Hover Effect */
-.button:hover {
-    background: #000;
-    color: #f5f6fa;
-}
-
-/* -----[ Section Responsiveness ]----- */
-
-@media screen and (max-width:960px) {
-
-.contact-info,
-.contact-information,
-.social-icons {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #F5f6fa;
-}
-}
-
-/* ------------------------------------[ Communities & Work Experience Section ]-------------------------------------- */
-
-/* Section Styling (Communities */
-#communities-section {
-    background: #e7e8ef;
-    box-sizing: border-box;
-    display: grid;
-    place-items: center;
-    color: #82589F;
-    padding: 40px 20px 35px;
-}
-
-/* Section Styling (Work Experience) */
-#work-experience {
-    background: #f1f1f1;
-    box-sizing: border-box;
-    display: grid;
-    place-items: center;
-    color: #434343;
-    padding: 40px 20px 35px;
-}
-
-/* Content Styling */
-.communities-wrap,
-.experience-wrap {
-    height: auto;
-    text-align: center;
-    max-width: 1100px;
-}
-
-/* Intro Title */
-.communities-wrap h2,
-.experience-wrap h2 {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 40px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-/* Intro Paragraph */
-.communities-wrap p,
-.experience-wrap p {
-    max-width: 550px;
-    font-size: 16px;
-    text-align: center;
-    font-family: Poppins, Helvetica, sans-serif;
-    margin: auto;
-    padding: 10px 0 30px;
-}
-
-/* Communities Styling */
-.communities,
-.companies {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
-
-/* Communities List Styling */
-.communities ul,
-.companies ul {
-    padding: 0;
-    margin: 0;
-}
-
-/* Communities List Items */
-.communities ul li,
-.companies ul li {
-    list-style: none;
-    display: inline-block;
-    width: 130px;
-    height: 130px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 12px 20px 5px; /*space between logos*/
-    transition: .5s;
-}
-
-/* Main Logos */
-.communities ul li img,
-.companies ul li img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/* -----[ Hover Effect ]----- */
-
-.communities ul li img:nth-child(1),
-.companies ul li img:nth-child(1) {
-    transform: translateY(0);
-    transition: .5s;
-}
-
-.communities ul li img:nth-child(2),
-.companies ul li img:nth-child(2) {
-    transform: translateY(0);
-    transition: .5s;
-}
-
-.communities ul li:hover img:nth-child(1),
-.companies ul li:hover img:nth-child(1) {
-    transform: translateY(-100%);
-    transition: .5s;
-}
-
-.communities ul li:hover img:nth-child(2),
-.companies ul li:hover img:nth-child(2) {
-    transform: translateY(-100%);
-    transition: .5s;
-}
-
-@media screen and (max-width:500px) {
-.communities ul li,
-.companies ul li {
-    width: 130px;
-    height: 130px;
-    margin: 12px 10px 5px; /*space between logos*/
-}
-}
-
-/* ------------------------------------[ Qualifications Section ]-------------------------------------- */
-
-/* Section Styling */
-#qualifications {
-    box-sizing: border-box;
-    background-image: linear-gradient(to right, #82589F, #c44569);
-    color: #F5f6fa;
-    padding: 50px 50px 0 100px;
-}
-
-/* Section Row Styling */
-#qualifications .row {
-    max-width: 1050px;
-    margin: 0 auto; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-}
-
-/* Intro Title */
-.qualifications-intro h2 {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 40px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-/* Intro Paragraph */
-.qualifications-intro p {
-    font-family: Poppins, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 16px;
-    max-width: 550px;
-    margin: 0 auto 40px;
-}
-
-/* Timeline Styling */
-.timeline {
-    max-width: 700px; /* IMPORTANTE */
-    margin: 0 auto;
-}
-
-/* Timeline Body */
-.timeline-body {
-    position: relative;
-    margin-left: 100px;
-    border-radius: 0 8px 8px 0;
-    padding: 2px 0;
-}
-
-/* Timeline Vertical Line */
-.timeline-body::after {
-    content: '';
-    width: 3px;
-    height: 100%;
-    background-color: #F5f6fa;
-    position: absolute;
-    left: -4px;
-    top: 0;
-}
-
-/* Timeline Item */
-.timeline-item {
-    position: relative;
-}
-
-/* Timeline Small Circles */
-.timeline-item::after {
-    content: '';
-    width: 23px;
-    height: 23px;
-    border-radius: 50%;
-    border: 3px solid #F5f6fa;
-    background-color: #F5f6fa;
-    position: absolute;
-    left: -14px;
-    top: 0px;
-    z-index: 9;
-}
-
-/* School Logos */
-.school-logo {
-    position: absolute;
-    left: -130px;
-    top: 0;
-    width: 110px;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-}
-
-/* Timeline Years Styling */
-.qualifications-content h2 {
-    font-family: Poppins, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-
-/* Section Subtitles */
-.qualifications-content h3 {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 25px;
-    line-height: 1;
-    letter-spacing: 1px;
-}
-
-/* Section Schools Responsive */
-.qualifications-content h4 {
-    font-family: Poppins, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
-/* Descriptive Paragraph */
-.qualifications-content p {
-    font-size: 15px;
-    font-family: Poppins, Helvetica, sans-serif;
-    line-height: 1.3;
-}
-
-/* Horizontal Dashed Line */
-.qualifications-content {
-    margin: 30px;
-    padding-bottom: 10px;
-    border-bottom: 2px dashed #F5f6fa;
-}
-
-/* -----[ Section Responsiveness ]----- */
-
-@media screen and (max-width:960px) {
-
-#qualifications {
-    padding: 50px 0 0 0;
-}
-}
-
-@media screen and (max-width:600px) {
-.school-logo {
-    display: none;
-}
-
-#qualifications {
-    padding: 50px 0 0 0;
-}
-
-#qualifications .col {
-    padding: 0;
-    right: 40px;
-}
-
-.qualifications-intro {
-    padding: 0 20px 0 20px;
-    text-align: center;
-}
-
-.qualifications-intro h2 {
-    font-size: 35px;
-}
-
-.qualifications-content p {
-    display: none;
-}
 }
