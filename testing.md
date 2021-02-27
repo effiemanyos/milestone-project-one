@@ -254,27 +254,31 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 
 *Visitor Types:*
 
-1. As a **First Time Visitor**, I want to know **who Effie is** and what she does so that I can evaluate if I need her expertise to scale my business (SMEs)
-    > XXXX
+1. As a **First Time Visitor**, I want to know **who Effie is** and **what she does** so that I can evaluate if I need her expertise to scale my business (SMEs)
+    > Users can find the answer to "who she is" in the following sections: About Me, Work Experience, Communities, or by clicking on About in the fixed Navigation Bar.
+
+    > Users can find the answer to "what she does" in the following sections: How Can I Help, What I Do, Social Media Links, or by clicking on Services in the fixed Navigation Bar.
 2. As a **First Time Visitor**, I want to know what **qualifications** Effie has so that I can use the resources she offers to increase my client base and profit (Entry-Level Professionals)
-    > XXXX
+    > Users can easily find Effie's qualifications in the Qualifications section, under the Work Experience section, or by clicking on About in the fixed Navigation Bar (and scrolling two sections down).
 3. As a **First Time Visitor**, I want to know what kind of **services** Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
-    > XXXX
+    > Users can easily find the services (types and fields) in the How Can I Help and What I Do sections, or by clicking on Services in the fixed Navigation Bar.
 4. As a **First Time Visitor**, I want to know about Effie's **work experience** so that I can get in touch with her once I finish my studies (Recent Graduates)
-    > XXXX
+    > Users can easily find Effie's work experience in the Work Experience section, under the About Me section, or by clicking on About in the fixed Navigation Bar (and scrolling one section down).
 5. As a **First Time Visitor**, I want to Know **what other people say about Effie** so that I can hire her to manage my social media accounts (Solopreneurs)
-    > XXXX
+    > Users can easily find Effie's testimonials in the Testimonials section, under the What I Do section, or by clicking on Testimonials in the fixed Navigation Bar.
 
 6. As a **Returning Visitor**, I want to **make sure** Effie's **site is not a scam** so that I can pay for her services before the product launch (Tech Startups)
-    > XXXX
+    > Users can easily find Effie's personal contact information in the Get In Touch or Contact section, under the Testimonials section, or by clicking on Contact in the fixed Navigation Bar.
 7. As a **Returning Visitor**, I want to **contact** Effie so that we can work together on my business growth and retention rates (SMEs)
-    > XXXX
+    > Users can easily find the contact me form in the Get In Touch section, under the Testimonials section, or by clicking on Contact in the fixed Navigation Bar.
 8. As a **Returning Visitor**, I want to **book** Effie's **free consultation** so that I can create a solid Digital Marketing strategy for my business (Solopreneurs)
-    > XXXX
+    > At the moment, the booking (Calendly integration) is not an available feature; however, users can book their free consultations through the Contact Me Form or by Calling Directly. 
+    
+    > **Locations:** Navigation Bar (Contact), About Me Section (CTA Button), How Can I Help Section (CTA Button), What I Do (CTA Button), Get In Touch Section (Contact Information & Form).
 9. As a **Returning Visitor**, I want to **call Effie directly** so that I can start working with her on my personal branding to get a corporate job in Ireland (Professional Expats)
-    > At the moment, the booking (Calendly integration) is not an available feature; however, users can book their free consultations through the Contact Me Form or by Calling Directly. Navigation Bar (Contact), About Me Section (CTA Button), How Can I Help Section (CTA Button), What I Do (CTA Button), Get In Touch Section (Contact Information & Form).
+    > Users can easily find Effie's personal mobile phone number in the Get In Touch section, under the Testimonials section, or by clicking on Contact in the fixed Navigation Bar.
 10. As a **Returning Visitor**, I want to **send Effie a message** so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
-    > XXXX
+    > Users can easily find Effie's email in the contact information or the contact form in the Get In Touch section, under the Testimonials section, or by clicking on Contact in the fixed Navigation Bar.
 
 As stated in the [README.md](https://github.com/effiemanyos/milestone-project-one/blob/master/README.md) file, the following features required by the **returning visitors** and **key target audience features** will be implemented by the second month after the launch of the MVP.
 

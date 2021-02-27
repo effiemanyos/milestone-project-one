@@ -129,7 +129,7 @@ External User's Goals:
 **Visitor Types:**
 
 *First-Time Visitor:*
-- As a **First Time Visitor**, I want to know **who Effie is** and what she does so that I can evaluate if I need her expertise to scale my business (SMEs)
+- As a **First Time Visitor**, I want to know **who Effie is** and **what she does** so that I can evaluate if I need her expertise to scale my business (SMEs)
 - As a **First Time Visitor**, I want to know what **qualifications** Effie has so that I can use the resources she offers to increase my client base and profit (Entry-Level Professionals)
 - As a **First Time Visitor**, I want to know what kind of **services** Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
 - As a **First Time Visitor**, I want to Know **what other people say about Effie** so that I can hire her to manage my social media accounts (Solopreneurs)
