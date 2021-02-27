@@ -55,7 +55,7 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #hero-image-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/bg-hero-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/bg-hero-img.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
