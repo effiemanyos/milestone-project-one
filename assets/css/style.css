@@ -200,7 +200,7 @@ button.navbar-toggler:focus {
     box-sizing: border-box;
     display: grid;
     place-items: center;
-    color: #82589F;
+    color: #434343;
     padding: 40px 20px 35px;
 }
 
@@ -487,7 +487,7 @@ button.navbar-toggler:focus {
     box-sizing: border-box;
     line-height: 1.5;
     background-color: #e7e8ef;
-    color: #82589F;
+    color: #434343;
 }
 
 /* Section Padding */
@@ -997,6 +997,11 @@ button.navbar-toggler:focus {
     align-items: center;
     color: #F5f6fa;
 }
+}
+
+/* Invisible Form Labels */
+label {
+    display: none;
 }
 
 /* ------------------------------------[ Footer Section ]-------------------------------------- */

@@ -101,13 +101,42 @@ The following actions were taken to improve the performance of the website:
 
 - **Fixes:**
 
+- **Issue:** Background and foreground colors do not have a sufficient contrast ratio √
+
+- **Fixes:** This issue was simply fixed by increasing the contrast of the colors in the background and foreground.
+
+```CSS
+#new-bgfg-colors {
+    background: #e7e8ef;
+    color: #434343;
+}
+```
+*Final Result:*
+![background and foreground new colors](./assets/images/increased-contrast.png "background and foreground new colors") 
+
 - **Issue:** Ensure text ramains visible during webfont load
 
 - **Fixes:**
 
 - **Issue:** Form elements do not have associated labels
 
-- **Fixes:**
+- **Fixes:** This issue was simply fixed by adding the associated labels to all form elements.
+
+```HTML
+<!-- Name -->
+<label for="fullname">Full Name</label>
+<input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required/>
+```
+
+```CSS
+/* Invisible Form Labels */
+label {
+    display: none;
+}
+```
+
+*Final Result:*
+![background and foreground new colors](./assets/images/form-labels.png "background and foreground new colors")
 
 - **Issue:** Links do not have a discernible name
 

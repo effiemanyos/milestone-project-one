@@ -703,16 +703,20 @@
                     <div class="center-form">
                         <form>
                             <!-- Name -->
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
+                            <label for="fullname">Full Name</label>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name"
                                 required />
                             <!-- Email -->
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            <label for="emailaddress">Email Address</label>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address"
                                 required />
                             <!-- Subject -->
-                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"
+                            <label for="subjectline">Subject Line</label>
+                            <input type="text" name="subject" id="subjectline" class="form-control" placeholder="Subject Line"
                                 required />
                             <!-- Message -->
-                            <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message"
+                            <label for="message">Main Message</label>
+                            <textarea rows="5" name="message" id="message" class="form-control" placeholder="Main Message"
                                 required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
@@ -770,7 +774,8 @@
                         <p>Subscribe if you would like to receive regular event updates, exclusive content, discounts,
                             monthly insights!</p>
                         <form>
-                            <input type="email" placeholder="Email Address">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Email Address">
                             <input type="submit" value="Subscribe">
                         </form>
                     </div>
@@ -788,6 +793,6 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <script>$('body').scrollspy({ target: '#navbar' })</script>
-    
+
 </body>
 </html>

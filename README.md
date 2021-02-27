@@ -480,7 +480,7 @@ https://wave.webaim.org/
 ### **Other Technologies**
 - Mockup → [Responsive Design](http://ami.responsivedesign.is/)
 - Mockup → [Techsini Mockup Generator](http://techsini.com/multi-mockup/)
-- Unicode → [Cool Symbol](https://coolsymbol.com/)
+- Unicode Symbols → [Cool Symbol](https://coolsymbol.com/)
 - Illustrations → [UnDraw](https://undraw.co/)
 - Photography → [Unsplash](https://unsplash.com/)
 - Wireframing → [Balsamiq](https://balsamiq.com/) (*)
@@ -506,7 +506,7 @@ All issues... XXX
 
 The entire testing process, issues and bugs found, solutions, and final results can be found here.
 
-# **Deployment**
+# **DEPLOYMENT**
 
 ### **GitHub Pages**
 
@@ -634,6 +634,7 @@ All these snippets of code have been fully customized for this project's require
 I would like to thank the following people for the constant support and guidance during my learning process: 
 - [Cormac Lawlor (Tutor)](https://www.linkedin.com/in/cormac-lawlor/)
 - [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
+- [Code Institute Slack Community](https://code-institute-room.slack.com/)
 - [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
 - [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
 - [Istvan Orosz (Classmate)](https://www.linkedin.com/in/istv%C3%A1n-orosz/) 
