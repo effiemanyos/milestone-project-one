@@ -535,7 +535,7 @@ This project was deployed to **GitHub Pages** following these steps:
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
 
-![deployment to github pages steps](./assets/images/github-pages.png "deployment to github pages steps")
+Follow these visual steps [here](https://github.com/effiemanyos/milestone-project-one/blob/master/assets/images/github-pages.png).
 
 ### **Run Project Locally**
 
