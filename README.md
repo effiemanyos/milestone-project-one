@@ -43,9 +43,6 @@ This project is the first milestone in obtaining a **[Full-Stack Web Development
 - [Technologies Used](#technologies-used "Technologies Used")
 - [Testing](#testing "Testing")
 - [Deployment](#deployment "Deployment")
-    - [GitHub Pages](#github-pages "GitHub Pages")
-    - [Run Project Locally](#run-prject-locally "Run Project Locally")
-    - [Clone & Fork Repository](# "Clone & Fork Repository")
 - [Credits](#credits "Credits")
 - [Acknowledgements](#acknowledgements "Acknowledgements")
 
@@ -500,6 +497,13 @@ https://wave.webaim.org/
 
 The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/milestone-project-one/blob/master/testing.md).
 
+- Issues Solved During Development
+- HTML-CSS Validation Testing
+- Testing Performance
+- Testing Accessibility
+- Testing User Stories
+- Code Institute Peer Code Review
+
 [Back to Content](#content)
 
 # **DEPLOYMENT**
@@ -519,6 +523,8 @@ This project was deployed to **GitHub Pages** following these steps:
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
 
+![deployment to github pages steps](./assets/images/github-pages.png "deployment to github pages steps")
+
 ### **Run Project Locally**
 
 1. Login to **[GitHub](https://github.com/)**
@@ -528,9 +534,9 @@ This project was deployed to **GitHub Pages** following these steps:
 
 ### **Clone & Fork GitHub Repository**
 
-To **Clone** or **Fork** this repository ([Milestone-Project-One](https://github.com/effiemanyos/milestone-project-one)) into your [GitHub](https://github.com/) account please follow these steps:
-- [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-- [Fork a Repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+Additionally, you can either **Clone** or **Fork** this repository ([Milestone-Project-One](https://github.com/effiemanyos/milestone-project-one)) into your [GitHub](https://github.com/) account by following these guides:
+- **[Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)**
+- **[Fork a Repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)**
 
 [Back to Content](#content)
 
