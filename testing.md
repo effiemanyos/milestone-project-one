@@ -1,36 +1,39 @@
 # **TESTING**
 
-The website was tested in the following browsers:
+The website was tested in the following **browsers**:
 
 - Chrome √
-- Firefox
-- Microsoft Edge
-- Brave
+- Firefox √
+- Microsoft Edge √
 - Safari √
-- Internet Explorer
+- Internet Explorer X
 - Opera √
-- Chromium
 
-It was also tested in the following phone operating systems:
+It was also tested in the following phone **operating systems**:
 
-- iOS
-- Android
-- 
+- iOS √
+- Android √
 
-Finally, it was tested in the following mobile devices:
+Finally, it was tested in the following **devices**:
 
-- 
-- 
-- 
-- 
-- 
+- Desktop √
+- iPhone 5/SE √
+- Pixel 2/2XL √
+- Moto 4G √
+- Galaxy S5 √
+- iPhone 6/7/8 (+Plus) √
+- iPhone X/iPhone XS Max √
+- iPad/iPad Pro √
+- Surface Duo √
 
 *Results:* 
 
-The webiste had an optimal performance and could be used perfectly, no funcional issues were found during the testing. The visual layout was not the exactly the same in all systems but the users could interact with ease and achieve their goals successfully.
+The website had an great performance and could be used perfectly, no funcional issues were found during the testing. However, the layout was not exactly the same (or the intended design) in all systems and devices but the users could interact with ease and achieve their goals successfully.
 
 ## **Issues Solved During Development**
 -----
+
+The most important issues that were found during development that took a considered amount to time to solve are the following:
 
 - ONE
 
@@ -41,16 +44,6 @@ The webiste had an optimal performance and could be used perfectly, no funcional
 - FOUR
 
 - FIVE
-
-- SIX
-
-- SEVEN
-
-- EIGHT
-
-- NINE
-
-- TEN
 
 ## **HTML/CSS Validation Testing**
 -----
@@ -63,7 +56,7 @@ The tool used for this code validation was the [W3C Markup Validation Service](h
 
 ***Date:*** Thursday, Feb 25th, 2021
 
-- **Issue:** Bad value "mailto: effie@gmail.com" for attribute `href` on element `a`: Illegal character in scheme data: **space is not allowed**.
+**1. Issue:** Bad value "mailto: effie@gmail.com" for attribute `href` on element `a`: Illegal character in scheme data: **space is not allowed**.
 
 - **Fixes:** All the extra spaces were removed resulting in:
 
@@ -71,7 +64,7 @@ The tool used for this code validation was the [W3C Markup Validation Service](h
 <p><a href="mailto:effie@gmail.com">effie@gmail.com</a></p>
 ```
 
-The final report shows no errors in the index.html file as they were properly fixed:
+The **final report** shows no errors in the index.html file as they were properly fixed:
 
 ![w3c html validation service one error results](./assets/images/html-final-validation.png "w3c css validation service one error results") 
 
@@ -89,16 +82,16 @@ The CSS yielded no errors, so I proceeded with further testing. However, it is w
 
 ![w3c css validation service warning results](./assets/images/css-warnings.png "w3c css validation service warning results") 
 
-Just in case, I redid the testing by **File Upload** and the results were exactly the same. 
+Just in case, the testing was done again, this time by **File Upload**, and the results were exactly the same. 
 
 ## **Testing Performance**
 -----
 
-In order to test the website's performance on desktop and mobile, [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used.
+In order to test the website's performance on **desktop** and **mobile**, [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used in both cases.
 
 ### **1. Desktop**
 
-The initial results were the following:
+The **initial results** were the following:
 
 ![google lighthouse desktop results](./assets/images/lighthouse-desktop-p1.png "google lighthouse desktop results") 
 
@@ -122,7 +115,7 @@ The following actions were taken to improve the performance of the website, espe
 
 **2. Issue:** Properly size images / Avoid enourmous network payloads
 
-- **Fixes:** Unfortunatly, due to the lack of time this issue cannot be solved before the project deadline. However, all the images used on the website will be converted from PNG to formats like JPEG 2000 or WebP to provide better compression for faster downloads and less data consumption. The tools that will be used for this are the following: [Convertio (PNG to WebP)](https://convertio.co/png-webp/) and [TinyPNG (Image Compression)](https://tinypng.com/).
+- **Fixes:** Unfortunatly, due to the lack of time this issue could not be solved before the project deadline. However, all the images used on the website will be converted from PNG to formats like JPEG 2000 or WebP to provide better compression for faster downloads and less data consumption. The tools that will be used for this are the following: [Convertio (PNG to WebP)](https://convertio.co/png-webp/) and [TinyPNG (Image Compression)](https://tinypng.com/). **Goal:** Less than 550KB per image.
 
 **3. Issue:** Links to cross-origin destinations are unsafe
 
@@ -137,7 +130,12 @@ The following actions were taken to improve the performance of the website, espe
 
 **4. Issue:** Image elements do not have explicit widh and height
 
-- **Fixes:**
+- **Fixes:** Unfortunatly, due to the lack of time this issue could not be solved before the project deadline. However, explicit `width` and `height` (size attributes) will be set on image and video elements to reduce layout shifts and improve CLS (Cumulative Layout Shift) like explained in [Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions).
+
+*Example:*
+```HTML
+<img src="community-logo.jpg" width="640" height="360" alt="the club community official logo"/>
+```
 
 **5. Issue:** Background and foreground colors do not have a sufficient contrast ratio √
 
