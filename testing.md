@@ -245,24 +245,12 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 ## **Testing User Stories**
 -----
 
-*Target Audience:*
-
-1. As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales.
-    > XXXX
-2. As a **Tech Startup**, I want to **use** Effie's **free online resources** so that we can create a robust Digital Marketing strategy.
-    > XXXX
-3. As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase our business' online presence and engagement.
-    > XXXX
-4. As a **Non-Profit**, I want to **contact** Effie for a **collaboration** and **consulting session** so that we can grow the organization organically.
-    > XXXX
-5. As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
-    > XXXX
-6. As an **Entry-Level Professional**, I want to **join** Effie's **networking community** so that I can land my first full-time job faster through contacts.
-    > XXXX
-7. As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
-    > XXXX
-8. As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.
-    > XXXX
+![screenshot of the welcome section of the website](./assets/images/welcome-screenshot.png "screenshot of the welcome section of the website")
+![screenshot of the about me section of the website](./assets/images/about-screenshot.png "screenshot of the about me section of the website")
+![screenshot of the services section of the website](./assets/images/services-screenshot.png "screenshot of the services section of the website")
+![screenshot of the testimonials section of the website](./assets/images/testimonials-screenshot.png "screenshot of the testimonials section of the website")
+![screenshot of the contact section of the website](./assets/images/contact-screenshot.png "screenshot of the contact section of the website")
+![screenshot of the footer section of the website](./assets/images/footer-screenshot.png "screenshot of the footer section of the website")
 
 *Visitor Types:*
 
@@ -288,14 +276,38 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 10. As a **Returning Visitor**, I want to **send Effie a message** so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
     > XXXX
 
-*Frequent Visitors:*
-- As a **Frequent Visitor**, I want to **register** to Effie's **upcoming online workshops and events** so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
-- As a **Frequent Visitor**, I want to **join Effie's community for expats (Huasi)** so that I can meet more connections to land my dream job faster (Professional Expats)
-- As a **Frequent Visitor**, I want to **pay a monthly or annually subscription** so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
-- As a **Frequent Visitor**, I want to **pay online for Effie's services** so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
-- As a **Frequent Visitor**, I want to **get the freemium plan** so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
+As stated in the [README.md](https://github.com/effiemanyos/milestone-project-one/blob/master/README.md) file, the following features required by the **returning visitors** and **key target audience features** will be implemented by the second month after the launch of the MVP.
 
-As stated in the [README.md](https://github.com/effiemanyos/milestone-project-one/blob/master/README.md) file, these lasts features required by the **returning visitors** will be implemented the second month after the launch of the MVP.
+*Frequent Visitors:*
+1. As a **Frequent Visitor**, I want to **register** to Effie's **upcoming online workshops and events** so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
+    > Feature that will be implemented in the next iteration (Training Page: Online Workshops).
+2. As a **Frequent Visitor**, I want to **join Effie's community for expats (Huasi)** so that I can meet more connections to land my dream job faster (Professional Expats)
+    > Feature that will be implemented in the next iteration (Join Us Page: Join Huasi or Join NetCork Communities).
+3. As a **Frequent Visitor**, I want to **pay a monthly or annually subscription** so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
+    > Feature that will be implemented in the next iteration (Join Us Page: Membership Plans).
+4. As a **Frequent Visitor**, I want to **pay online for Effie's services** so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
+    > Feature that will be implemented in the next iteration (Online Payment).
+5. As a **Frequent Visitor**, I want to **get the freemium plan** so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
+    > Feature that will be implemented in the next iteration (Join Us Page: Membership Plans).
+
+*Target Audience:*
+
+1. As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshops** so that I can boost my business' monthly sales.
+    > Feature that will be implemented in the next iteration (Training Page: Online Workshops).
+2. As a **Tech Startup**, I want to **use** Effie's **free online resources** so that we can create a robust Digital Marketing strategy.
+    > Feature that will be implemented in the next iteration (Resources Page: Free Resources).
+3. As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase our business' online presence and engagement.
+    > Feature that will be implemented in the next iteration (Contact Me Page: Calendly Integration).
+4. As a **Non-Profit**, I want to **contact** Effie for a **collaboration** and **consulting session** so that we can grow the organization organically.
+    > Users can contact Effie through the following: Navigation Bar (Contact), About Me Section (CTA Button), How Can I Help Section (CTA Button), What I Do (CTA Button), Get In Touch Section (Contact Information & Form).
+5. As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
+    > Feature that will be implemented in the next iteration (Services Page: Mentorship Program Applycation).
+6. As an **Entry-Level Professional**, I want to **join** Effie's **networking community** so that I can land my first full-time job faster through contacts.
+    > Feature that will be implemented in the next iteration (Join Us Page: Join Huasi or Join NetCork Communities).
+7. As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
+    > Feature that will be implemented in the next iteration (Training Page: Online Courses & Resources Page: Free Resources).
+8. As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.
+    > Feature that will be implemented in the next iteration (About Page: Online Video, Effie's Journey).
 
 [Back to Content](#content)
 

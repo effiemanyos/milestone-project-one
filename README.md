@@ -149,7 +149,7 @@ External User's Goals:
 - As a **Frequent Visitor**, I want to **pay online for Effie's services** so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
 - As a **Frequent Visitor**, I want to **get the freemium plan** so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
 
-These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope. The MVP is now more oriented to building brand awareness, confidence, trust and social proof. The features required by the **returning visitors** will be implemented the second month after the launch of the MVP.
+These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope. The MVP is now more oriented to building brand awareness, confidence, trust and social proof. The features required by the **returning visitors** will be implemented by the second month after the launch of the MVP.
 
 ### **Unique Selling Proposition**
 
