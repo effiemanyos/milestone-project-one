@@ -1,5 +1,34 @@
 # **TESTING**
 
+The website was tested in the following browsers:
+
+- Chrome √
+- Firefox
+- Microsoft Edge
+- Brave
+- Safari √
+- Internet Explorer
+- Opera √
+- Chromium
+
+It was also tested in the following phone operating systems:
+
+- iOS
+- Android
+- 
+
+Finally, it was tested in the following mobile devices:
+
+- 
+- 
+- 
+- 
+- 
+
+*Results:* 
+
+The webiste had an optimal performance and could be used perfectly, no funcional issues were found during the testing. The visual layout was not the exactly the same in all systems but the users could interact with ease and achieve their goals successfully.
+
 ## **Issues Solved During Development**
 -----
 
@@ -78,6 +107,8 @@ The initial results were the following:
 ![google lighthouse desktop accessibility results](./assets/images/lighthouse-desktop-accessibility.png "google lighthouse desktop accessibility results") 
 
 ![google lighthouse desktop best practices results](./assets/images/lighthouse-desktop-bestpractices.png "google lighthouse desktop best practices results") 
+
+![google lighthouse desktop runtime settings](./assets/images/runtime-settings.png "google lighthouse desktop runtime settings") 
 
 ***Date:*** Thursday, Feb 25th, 2021
 
