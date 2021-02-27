@@ -10,7 +10,7 @@
 
 ### **Project Overview**
 
-This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, Recent Graduates** achieve their professional goals by providing them with the right tools. From a business perspective, this project is to **build a strategic professional online presence for the owner, promote and sell her services and online courses, build a community around the fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
+This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, Recent Graduates, Professional Expats** achieve their professional goals by providing them with the right tools. From a business perspective, this project is to **build a strategic professional online presence for the owner, promote and sell her services and online courses, build a community around the fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
 
 This project is the first milestone in obtaining a **[Full-Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Only **HTML** and **CSS** were required for this project (**Bootstrap** was optional); however, other technologies were slightly used to improve the overall quality and user experience.
 
@@ -61,6 +61,7 @@ ____
 - Mentees
 - Entry-Level Professionals
 - Recent Graduates
+- Professional Expats
 
 All working under the constraints of a **tight/no budget**.
 
@@ -114,30 +115,41 @@ External User's Goals:
 - Stay up to date with the latest trends and resources
 
 ### **User Stories**
-"As a (type of user), I want to (perfom some task) so that I can (achieve some goal)."
 
 **Target Audience:**
-- As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales (achieve some goal).
-- As a **Tech Startup**, I want to **use** Effie's **free resources** so that we can create a robust Digital Marketing strategy.
-- As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase my business' online presence and engagement. 
-- As a **Non-Profits**, I want to **contact** Effie for a **collaboration** and **consulting** so that we can grow the organization organically.  
-- As a **Mentee**, I want to **apply** to her **mentorship program** so that I can get the proper guidance for my professional career.
-- As an **Entry-Level Professional**, I want to **join** her **networking community** so that I can land my first full-time job faster through contacts.
-- As a **Recent Graduate**, I want to **consume** Effie's **free training resources** so that I can launch my business idea.
+- As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales.
+- As a **Tech Startup**, I want to **use** Effie's **free online resources** so that we can create a robust Digital Marketing strategy.
+- As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase our business' online presence and engagement. 
+- As a **Non-Profit**, I want to **contact** Effie for a **collaboration** and **consulting session** so that we can grow the organization organically.  
+- As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
+- As an **Entry-Level Professional**, I want to **join** Effie's **networking community** so that I can land my first full-time job faster through contacts.
+- As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
+- As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.  
 
 **Visitors Type:**
 
 *First-Time Visitor:*
-- As a **First Time Visitor**, I want to know who she is and what she does so that I can evaluate if I need her to grow my business.
-- As a **First Time Visitor**, I want to make sure this site is not a scam so that I can use these resources and services to increase my client base.
+- As a **First Time Visitor**, I want to know who Effie is and what she does so that I can evaluate if I need her to scale my business (SMEs)
+- As a **First Time Visitor**, I want to know what qualifications Effie has so that I can use the resources she offers to increase my client base and annual profit (Entry-Level Professionals)
+- As a **First Time Visitor**, I want to know what kind of services Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
+- As a **First Time Visitor**, I want to Know what other people say about Effie so that I can hire her to manage my social media accounts (Solopreneurs)
+- As a **First Time Visitor**, I want to know about Effie's work experience so that I can get in touch with her once I finish my studies (Recent Graduates)
 
 *Returning Visitor:*
-- As a **Returning Visitor**, I want to contact Effie... 
+- As a **Returning Visitor**, I want to make sure Effie's site is not a scam so that I can pay for her services before the product launch (Tech Startups)
+- As a **Returning Visitor**, I want to contact Effie so that we can work together on my business growth and retention rates (SMEs)
+- As a **Returning Visitor**, I want to book Effie's free consultation so that I can create a solid Digital Marketing strategy for my business (Solopreneurs)
+- As a **Returning Visitor**, I want to call Effie directly so that I can start working with her on my personal branding to get a corporate job in Ireland (Professional Expats)
+- As a **Returning Visitor**, I want to send Effie a message so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
 
 *Frequent Visitor:*
-- As a **Returning Visitor**, I want to contact Effie... 
+- As a **Frequent Visitor**, I want to register to Effie's online workshop so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
+- As a **Frequent Visitor**, I want to join Effie's community for expats (Huasi) so that I can meet more connections to land my dream job faster (Professional Expats)
+- As a **Frequent Visitor**, I want to pay the monthly or annually subscription so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
+- As a **Frequent Visitor**, I want to hire Effie's services so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
+- As a **Frequent Visitor**, I want to get the freemium plan so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
 
-These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope.
+These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope. The MVP is now more oriented to building brand awareness, confidence, trust and social proof. The features required by the **returning visitors** will be implemented and launch by the second month of the MVP launch.
 
 ### **Unique Selling Proposition**
 
