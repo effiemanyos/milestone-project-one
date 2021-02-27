@@ -10,7 +10,7 @@
 
 ### **Introduction & Project Overview:**
 
-This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, and Recent Graduates** achieve their professional goals by providing them with the right tools and network. Additionally, the main purpose of this project is to **build a strategic professional online presence, promote the owner's services, sell her online courses, build a community around those fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
+This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, Recent Graduates** achieve their professional goals by providing them with the right tools. From a business perspective, this project is to **build a strategic professional online presence for the owner, promote and sell her services and online courses, build a community around the fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
 
 This project is the first milestone in obtaining a **[Full-Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Only **HTML** and **CSS** were required for this project (**Bootstrap** was optional); however, other technologies were slightly used to improve the overall quality and user experience.
 
