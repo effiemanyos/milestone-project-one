@@ -205,20 +205,29 @@ All "errors" and "alerts" were analysed in detail and the **conclusions** were t
 
 - All these **errors** on the site are the same, the `<a>` tag doesn't contain any text: 
 
+![wave accessibility errors results](./assets/images/wave-accessibility-errors.png "wave accessibility errors and alerts results")
 
 In order to fix this to improve the accessibility of the website, `alt text` was added to all social media icons so that the text can be detected by screen readers only:
 
 ```HTML
-<!-- Name -->
-<label for="fullname">Full Name</label>
-<input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required/>
+<!-- Hidden Text Social Media Icons | SR Only -->
+<a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fa fa-linkedin"><span class="sr-only">LinkedIn</span></i></a>
+<a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"><span class="sr-only">Facebook</span></i></a>
+<a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa fa-instagram"><span class="sr-only">Instagram</span></i></a>
+<a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"><span class="sr-only">Twitter</span></i></a>
 ```
 
-<a target="_blank" href="https://www.facebook.com/girldevelopit">
-  <i class="fa fa-facebook"><span class="sr-only">GDI Facebook</span></i>
-</a>
+```CSS
+/* Hidden Text Social Media Icons | SR Only */
+.sr-only {
+    font-size: 0;
+    height: 1px;
+    overflow: hidden;
+    display: block;
+}
+```
 
-> Credit: [Add Text Alternate to Social Media Icons by Sylvia Pellicore](https://github.com/girldevelopit/gdi-website/issues/344)
+> Credit: ["Add Text Alternate to Social Media Icons" by Sylvia Pellicore](https://github.com/girldevelopit/gdi-website/issues/344)
 
 ## **Testing User Stories**
 -----
