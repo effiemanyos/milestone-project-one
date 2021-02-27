@@ -75,9 +75,11 @@ In order to test the website's performance on desktop and mobile, [Google Lighth
 
 ![google lighthouse desktop accessibility results](./assets/images/lighthouse-desktop-accessibility.png "google lighthouse desktop accessibility results") 
 
+![google lighthouse desktop best practices results](./assets/images/lighthouse-desktop-bestpractices.png "google lighthouse desktop best practices results") 
+
 ***Date:*** Thursday, Feb 25th, 2021
 
-The following actions were taken to improve the performance of the website:
+The following actions were taken to improve the performance of the website, especially the accessibility:
 
 **Urgent Issues:**
 
@@ -94,6 +96,10 @@ The following actions were taken to improve the performance of the website:
 - **Fixes:**
 
 - **Issue:** Avoid enourmous network payloads
+
+- **Fixes:**
+
+- **Issue:** Links to cross-origin destinations are unsafe
 
 - **Fixes:**
 
