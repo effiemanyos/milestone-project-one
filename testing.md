@@ -49,15 +49,117 @@ The website had an great performance and could be used perfectly, no funcional i
 
 The most important issues that were found during development that took a considered amount to time to solve are the following:
 
-- ONE
+### **Anchors & Navigation Bar**
 
-- TWO
+**1. Issue:** When users click on any of the options in the navigation bar, they were led to the correct section but couldn't see the title of the section unless they scroll down/up. This was a really bad UX.
 
-- THREE
+![screenshot of the issue with the anchors and the navbar](./assets/images/anchors-navbar.png "screenshot of the issue with the anchors and the navbar")
 
-- FOUR
+- **Fixes:** 1) All the anchors `<div class="anchors" id="#"></div>` had to be placed outside each `<section>`. Because this method didn't work, a second trick was applied. 2) Style was added to each anchor, margin (-) and padding (+), in the index.html file to fix the precision when clicking on the main menu bar options (navigation bar).
 
-- FIVE
+```HTML
+<div class="anchors" id="home" style="padding-top: 40px; margin-top: -40px"></div>
+<div class="anchors" id="about" style="padding-top: 140px; margin-top: -140px"></div>
+<div class="anchors" id="services" style="padding-top: 60px; margin-top: -60px"></div>
+<div class="anchors" id="testimonials" style="padding-top: 90px; margin-top: -90px"></div>
+<div class="anchors" id="contact" style="padding-top: 90px; margin-top: -90px"></div>
+```
+
+Now the issue is fixed and precision increased to 100%. Credit: http://bit.ly/2ZN3GL2 by Alexander Savin.
+
+### **Footer Unnecessary Extra Space**
+
+**2. Issue:** When users scrolled all the way down to the bottom of the site, they encountered an extra white space that didn't add any value and seemed like a human error coming from the source code.
+
+![screenshots of how the additional space on the footer section was fixed](./assets/images/footer-fix.png "screenshots of how the additional space on the footer section was fixed")
+
+- **Fixes:** 1) Chrome DevTools was used to identify where this problem was coming from. 2) Once the root was detected, the fastest solution was to add `margin-bottom: 0;` to the CSS style sheet to remove that extra white space from the bottom of the site.
+
+### **How Can I Help (Services Types) Responsiveness**
+
+**3. Issue:** The illustration of the section was too big for mobile devices but perfect size for desktop. This generated an extra white space at the right of the screen. Also, the CTA button text was aligned to the left, the text was too long and the colour was not the right one.  
+
+![screenshots of how the services types section was fixed](./assets/images/services-types-fix.png "screenshots of how the services types section was fixed")
+
+- **Fixes:** 1) Chrome DevTools was also used to identify where this problem was coming from. 2) Once the root was detected, the size of the illustration was reduced to `max-width: 100%` in order to make it responsive. Now, it looks good in all devices (multiple screen sizes). 
+
+### **Contact Me / Get In Touch Section**
+
+**4. Issue:** Users identified various issues in this section. The first one being the phone number was in blue (on mobiles) and it was not readable for most people, besides users were not able to send messages by clicking on the email address in the contact information. The second being the responsiveness of the section, when seeing it on tablet or mobile the contact information didn't centered but stayed on the left. Finally, there was not enough space between the contact information and the form.
+
+![screenshots of what issues the contact section had and final results](./assets/images/contact-fix.png "screenshots of what issues the contact section had and final results")
+
+- **Fixes:** The first code below was added to the CSS Style Sheet to fix the color of the mobile phone number and the contact information content alignment when viewed on small screens (tablets and mobiles). The second code was added to the index.html file so that users could send messages just by clicking on the email address in the contact information column.
+
+```CSS
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+.contact-info,
+.contact-information,
+.social-icons {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F5f6fa;
+}
+}
+```
+
+```HTML
+<div class="contact-information">
+    <i class="fa fa-envelope-o"></i>
+    <p><a href="mailto:effie@gmail.com">effie@gmail.com</a></p>
+</div>
+```
+
+### **Qualifications Responsiveness**
+
+**5. Issue:**
+
+![screenshots of what issues the qualifications section had and final results](./assets/images/qualifications-responsive.png "screenshots of what issues the qualifications section had and final results")
+
+- **Fixes:**
+
+```CSS
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+}
+
+@media screen and (max-width:600px) {
+.school-logo {
+    display: none;
+}
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+
+#qualifications .col {
+    padding: 0;
+    right: 40px;
+}
+
+.qualifications-intro {
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+.qualifications-intro h2 {
+    font-size: 35px;
+}
+
+.qualifications-content p {
+    display: none;
+}
+}
+```
 
 [Back to Content](#content)
 
@@ -265,7 +367,7 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 4. As a **First Time Visitor**, I want to know about Effie's **work experience** so that I can get in touch with her once I finish my studies (Recent Graduates)
     > Users can easily find Effie's work experience in the Work Experience section, under the About Me section, or by clicking on About in the fixed Navigation Bar (and scrolling one section down).
 5. As a **First Time Visitor**, I want to Know **what other people say about Effie** so that I can hire her to manage my social media accounts (Solopreneurs)
-    > Users can easily find Effie's testimonials in the Testimonials section, under the What I Do section, or by clicking on Testimonials in the fixed Navigation Bar.
+    > Users can easily find Effie's testimonials in the Testimonials section, under the Communities section, or by clicking on Testimonials in the fixed Navigation Bar.
 
 6. As a **Returning Visitor**, I want to **make sure** Effie's **site is not a scam** so that I can pay for her services before the product launch (Tech Startups)
     > Users can easily find Effie's personal contact information in the Get In Touch or Contact section, under the Testimonials section, or by clicking on Contact in the fixed Navigation Bar.
